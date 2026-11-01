@@ -1,0 +1,985 @@
+{
+  "site_title": "Intel Bob Research Archive",
+  "site_subtitle": "Research projects produced by Intel Bob for Paul: satellite communications, government directories, telecom strategy and financial analysis.",
+  "source_dir": "/workspace",
+  "projects": [
+    {
+      "slug": "leo-satellite-comms-report",
+      "title": "LEO Satellite Communications: Provider Comparison, Specifications & Pricing",
+      "date": "2026-10-25T18:46",
+      "tags": [
+        "LEO Satellite",
+        "Pricing",
+        "Market Analysis"
+      ],
+      "summary": "An 11-page comparison of five satellite broadband providers: Starlink, Amazon Leo, Telesat Lightspeed, Eutelsat OneWeb and Viasat. It covers constellation status, terminal and service specifications, and public or reseller pricing for consumer, enterprise, maritime, aviation and government segments. Every figure is tied to a numbered, clickable source.",
+      "stats": [
+        "11 pages",
+        "60 references",
+        "5 providers"
+      ],
+      "doc": "LEO_Satellite_Comms_Report.docx",
+      "related_files": [],
+      "short_summary": "Compares specifications and pricing for Starlink, Amazon Leo, Telesat Lightspeed, Eutelsat OneWeb and Viasat across consumer, enterprise and government segments."
+    },
+    {
+      "slug": "amazon-leo-pdf-spec-links",
+      "title": "Amazon Leo (formerly Project Kuiper): Public PDF Specification Links",
+      "date": "2026-10-25T19:12",
+      "tags": [
+        "LEO Satellite",
+        "Spec Links",
+        "Regulatory"
+      ],
+      "summary": "A verified list of public PDF documents and filing records with technical specifications for Amazon Leo. It covers official Amazon and AWS documents, terminal equipment authorizations, FCC filings, international regulatory filings (Ofcom, ITU, Canada, Brazil, Australia) and third-party analyses, plus notes on gaps such as the lack of official terminal datasheets.",
+      "stats": [
+        "68 PDF links",
+        "5 categories",
+        "Links checked Oct 25, 2026"
+      ],
+      "doc": "Amazon_Leo_PDF_Spec_Links.docx",
+      "related_files": [],
+      "short_summary": "68 verified public PDF and filing links with technical specifications for Amazon Leo, from FCC and ITU filings to terminal authorizations."
+    },
+    {
+      "slug": "telesat-oneweb-pdf-spec-links",
+      "title": "Telesat Lightspeed & Eutelsat OneWeb: Public PDF Specification Links",
+      "date": "2026-10-25T20:45",
+      "tags": [
+        "LEO Satellite",
+        "Spec Links",
+        "Regulatory"
+      ],
+      "summary": "Verified public PDF and document-record links with technical specifications for Telesat Lightspeed (and its LEO test satellites) and Eutelsat OneWeb (Gen1, next-gen, user terminals and gateways). Sources include official company and investor documents, terminal datasheets, FCC, Ofcom, ISED and ITU filings, and academic analyses.",
+      "stats": [
+        "113 links",
+        "41 Telesat",
+        "72 OneWeb"
+      ],
+      "doc": "Telesat_OneWeb_PDF_Spec_Links.docx",
+      "related_files": [],
+      "short_summary": "113 verified public PDF and document links with technical specifications for Telesat Lightspeed (41) and Eutelsat OneWeb (72)."
+    },
+    {
+      "slug": "leo-satcom-civil-gov-business-plan",
+      "title": "Business Plan: LEO Satcom Managed Services for Civil Government",
+      "date": "2026-10-26T08:46",
+      "tags": [
+        "LEO Satellite",
+        "Government",
+        "Business Plan"
+      ],
+      "summary": "A business plan for an orbit-agnostic, multi-vendor managed satcom integrator that sells non-military connectivity to US federal civilian and international civil government agencies. It recommends buying LEO capacity from several operators rather than building a constellation, and maps entry points through verified contract vehicles such as GSA MAS, NASA SEWP VI, EU GOVSATCOM and UK NS4.",
+      "stats": [
+        "~$3B civil-gov market (2025 est.)",
+        "Verified contract vehicles",
+        "Multi-orbit model"
+      ],
+      "doc": "LEO_Satcom_Civil_Gov_Business_Plan.docx",
+      "related_files": [],
+      "short_summary": "A plan for a multi-orbit managed satcom integrator selling non-military connectivity to civil government agencies through verified contract vehicles."
+    },
+    {
+      "slug": "eu-nato-telecom-defense-contractors",
+      "title": "Top Telecommunications Operators and Defense Contractors in EU and NATO Countries",
+      "date": "2026-10-26T09:45",
+      "tags": [
+        "Government",
+        "Defense",
+        "Telecom Operators",
+        "Directory"
+      ],
+      "summary": "A country-by-country briefing on the leading mobile network operators and defense contractors in the 36 EU and NATO member countries, with space and satcom companies highlighted. Telecom market shares come from national regulators where available, and defense rankings from the Defense News Top 100 and SIPRI Top 100.",
+      "stats": [
+        "36 countries",
+        "70 tables",
+        "Every figure sourced"
+      ],
+      "doc": "EU_NATO_Telecom_Defense_Contractors.docx",
+      "related_files": [],
+      "short_summary": "The leading mobile operators and defense contractors in each of the 36 EU and NATO countries, with space and satcom companies highlighted."
+    },
+    {
+      "slug": "european-government-departments-and-agencies",
+      "title": "European Government Departments and Agencies",
+      "date": "2026-10-26T23:28",
+      "tags": [
+        "Government",
+        "Directory",
+        "Europe"
+      ],
+      "summary": "A directory of the national ministries, departments and major agencies of the 27 EU member states plus the UK, Norway, Switzerland and Iceland, with their functions and official web links, modelled on the GOV.UK organisations directory. It includes an appendix of EU institutions and agencies, and SharePoint-ready versions (spreadsheet, CSV and page document).",
+      "stats": [
+        "31 countries",
+        "530 ministries",
+        "489 agencies",
+        "28 EU bodies"
+      ],
+      "doc": "European_Government_Departments_and_Agencies.docx",
+      "related_files": [
+        "European_Government_Directory_SharePoint.xlsx",
+        "European_Government_Directory_SharePoint.csv",
+        "European_Government_Directory_SharePoint_Page.docx"
+      ],
+      "short_summary": "A directory of 530 ministries, 489 agencies and 28 EU bodies across 31 European countries, with official links and SharePoint-ready exports."
+    },
+    {
+      "slug": "satellite-d2d-business-case-for-mnos",
+      "title": "Satellite Direct-to-Device: Benefits & Business Case for MNOs",
+      "date": "2026-10-26T23:28",
+      "tags": [
+        "Direct-to-Device",
+        "Telecom Operators",
+        "Business Case"
+      ],
+      "summary": "A briefing on what satellite direct-to-device (D2D) service gives mobile operators and their customers, how Starlink Direct to Cell and AST SpaceMobile compare, and what operators charge today. It includes an illustrative revenue model and sourced reference lists for each provider's value proposition.",
+      "stats": [
+        "Starlink vs AST comparison",
+        "Illustrative revenue model",
+        "Sourced references"
+      ],
+      "doc": "Satellite_D2D_Benefits_Business_Case_for_MNOs.docx",
+      "related_files": [],
+      "short_summary": "What satellite direct-to-device service offers mobile operators, how Starlink Direct to Cell and AST SpaceMobile compare, and what operators charge today."
+    },
+    {
+      "slug": "starlink-mobile-european-mno-strategy",
+      "title": "Starlink Mobile: European MNO Partnership Strategy",
+      "date": "2026-10-26T23:30",
+      "tags": [
+        "Direct-to-Device",
+        "Strategy",
+        "Europe",
+        "Spectrum"
+      ],
+      "summary": "A strategy brief on how Starlink Mobile can keep and grow its European operator partners after Deutsche Telekom, Orange, Telefónica and Vodafone signed a letter of intent (19 Oct 2026) to explore a joint 2 GHz MSS spectrum bid. It covers the EU spectrum proposal, the competitive landscape, partner-target segmentation and a recommended 2027–2029 bridge strategy.",
+      "stats": [
+        "Big-4 LoI analysis",
+        "2 of 6 blocks open to non-EU",
+        "Partner segmentation"
+      ],
+      "doc": "Starlink_Mobile_European_MNO_Partnership_Strategy.docx",
+      "related_files": [],
+      "short_summary": "How Starlink Mobile can keep its European operator partners after the big-4 operators' joint 2 GHz spectrum bid announced on 19 Oct 2026."
+    },
+    {
+      "slug": "government-telecom-use-cases",
+      "title": "Government (Non-Military) Telecommunications Use Cases",
+      "date": "2026-10-28T16:32",
+      "tags": [
+        "Government",
+        "Telecom Use Cases",
+        "LEO Satellite"
+      ],
+      "summary": "A reference brief cataloguing 33 civil-government telecom use cases across 14 domains, from public safety and transport to health, education and science. Each use case is tagged as terrestrial, space-based or hybrid, with core technologies and dated references, written to support evaluation of LEO satcom providers.",
+      "stats": [
+        "33 use cases",
+        "14 domains",
+        "64 references"
+      ],
+      "doc": "Government_Telecom_Use_Cases.docx",
+      "related_files": [],
+      "short_summary": "33 civil-government telecom use cases in 14 domains, each tagged terrestrial, space or hybrid, with 64 dated references."
+    },
+    {
+      "slug": "eutelsat-financial-analysis",
+      "title": "Eutelsat Group: Detailed Financial Analysis",
+      "date": "2026-10-28T19:43",
+      "tags": [
+        "Financial",
+        "LEO Satellite",
+        "Eutelsat OneWeb"
+      ],
+      "summary": "A 16-page financial analysis of Eutelsat Group, including Eutelsat OneWeb, covering revenue mix, costs, the OneWeb renewal capex, IRIS² commitments, the balance sheet and the outlook. FY2025-26 shows the pivot from GEO video to LEO connectivity working at the revenue line while margins compress and capex steps up.",
+      "stats": [
+        "FY26 revenue €1,235.9m",
+        "LEO €297m",
+        "EBITDA margin 51.2%",
+        "Net debt €1,464.6m (2.32x)",
+        "5 charts",
+        "28 sources"
+      ],
+      "doc": "Eutelsat_Financial_Analysis.docx",
+      "related_files": [],
+      "short_summary": "FY26 revenue of €1,235.9m with LEO at €297m, a 51.2% EBITDA margin and net debt of €1,464.6m (2.32x), plus OneWeb capex, IRIS² commitments and the outlook."
+    },
+    {
+      "slug": "ast-spacemobile-iris2-pdf-spec-links",
+      "title": "AST SpaceMobile & IRIS²: Public PDF Specification Links",
+      "date": "2026-10-28T22:53",
+      "tags": [
+        "Spec Links",
+        "Direct-to-Device",
+        "IRIS²",
+        "Regulatory"
+      ],
+      "summary": "Verified public PDF and technical document links for AST SpaceMobile (BlueWalker 3, BlueBird Block 1 and Block 2, direct-to-cell architecture, FCC and international filings) and for IRIS², the EU Secure Connectivity Programme (official Commission and SpaceRISE documents, system and performance documents).",
+      "stats": [
+        "71 links",
+        "37 AST",
+        "34 IRIS²"
+      ],
+      "doc": "AST_SpaceMobile_IRIS2_PDF_Spec_Links.docx",
+      "related_files": [],
+      "short_summary": "71 verified public PDF and technical document links for AST SpaceMobile (37) and the EU's IRIS² programme (34)."
+    },
+    {
+      "slug": "ast-rakuten-japan-deal-analysis",
+      "title": "AST SpaceMobile × Rakuten: the Japan J-LEO Constellation Deal",
+      "date": "2026-10-29T00:00",
+      "tags": [
+        "Direct-to-Device",
+        "Deal Analysis",
+        "Japan",
+        "Government"
+      ],
+      "summary": "An analysis of the J-LEO grant of up to ¥148bn (~$1B) to RAST, the Rakuten–AST joint venture. It finds the figure is a government grant ceiling, not a purchase price; there is no official satellite count (the 136-satellite J-BLUEBIRD ITU filing is the closest indicator); and the programme carries Japan-based control requirements.",
+      "stats": [
+        "Up to ¥148bn (~$1B) grant",
+        "136-satellite ITU filing",
+        "49 references"
+      ],
+      "doc": "AST_Rakuten_Japan_Deal_Analysis.docx",
+      "related_files": [],
+      "short_summary": "The ~$1B J-LEO figure is a government grant ceiling of up to ¥148bn to the Rakuten–AST joint venture, not a purchase price, and no official satellite count exists."
+    },
+    {
+      "slug": "federated-sovereign-starlink-white-paper",
+      "title": "Federated Sovereign Starlink Model: Technical White Paper",
+      "date": "2026-10-29T22:34",
+      "tags": [
+        "LEO Satellite",
+        "Government",
+        "Defense",
+        "White Paper"
+      ],
+      "summary": "A reference concept for partner-nation sovereignty over a Starlink-class LEO network: a five-level nationalization spectrum (L0–L4), a sovereign national ops center and a multinational federation layer. It assesses precedents, sovereignty controls, and routing and coverage trade-offs for small national fleets.",
+      "stats": [
+        "5-level sovereignty ladder",
+        "Reference architecture",
+        "Illustrative routing model"
+      ],
+      "doc": "whitepaper/Federated_Sovereign_Starlink_White_Paper.docx",
+      "related_files": [
+        "whitepaper/Federated_Sovereign_Starlink_White_Paper.pdf"
+      ],
+      "short_summary": "A reference concept for partner-nation sovereignty over a Starlink-class LEO network, built on a five-level nationalization ladder and a sovereign national ops center.",
+      "related_projects": [
+        "federated-sovereign-starlink-model"
+      ]
+    },
+    {
+      "slug": "federated-satellite-constellation-model",
+      "type": "model",
+      "title": "Federated Satellite Constellation Model",
+      "date": "2026-10-30T00:01",
+      "tags": [
+        "Interactive Model",
+        "LEO Satellite",
+        "Government",
+        "Sovereignty"
+      ],
+      "disclaimer": "Concept model: figures are illustrative",
+      "summary": "A reference architecture in which several nations each own and contribute satellites to one shared multi-orbit constellation, run it through regional operations centres, and keep sovereign control over their assets, keys and data. Partners, satellite counts, orbits and shares are illustrative; the real-world anchors it borrows from (IRIS², Galileo, NATO NSS6G, WGS, ITU, GDPR, ITAR) are described as they actually work.",
+      "short_summary": "Several nations own and contribute satellites to one shared multi-orbit constellation, run through four regional ops centres while each keeps sovereign control of its assets, keys and data.",
+      "stats": [
+        "8 example partner nations",
+        "173 example satellites",
+        "5 orbital shells (LEO to GEO)",
+        "4 regional ops centres + 1 federation centre"
+      ],
+      "description": [
+        "Each partner builds, owns, files and insures its own satellites, then commits capacity to a common pool under one charter. The federation coordinates; it never owns or commands a national satellite.",
+        "The model sets out the sovereignty elements (national control of owned assets, data residency and key custody, tiered data sharing, crisis priority and pre-emption, export control, spectrum and landing rights, and governance and voting), a layered architecture and the main trade-offs and risks."
+      ],
+      "explore": [
+        "Constellation explorer: an animated ground map and orbital-shell view (300× real time), with ops centres, the follow-the-sun handover ring and failover pairs; hover any satellite, station or centre, or focus one nation.",
+        "Contributing nations table, sortable by capacity share, satellites or region, with capacity-share and satellites-by-nation charts.",
+        "Regional operations: the four regional ops centres, the Federation Coordination Center and its hot standby, and the handover and failover steps.",
+        "Sovereignty elements: tiered access (T0 to T3), crisis priority levels (L0 to L3), and an example voting-weight formula and chart.",
+        "Interactive layered-architecture diagram, filterable by national, shared-and-gated or federated control."
+      ],
+      "tables": [
+        {
+          "title": "Orbital shells (example parameters)",
+          "columns": [
+            "Shell",
+            "Altitude",
+            "Inclination",
+            "Planes",
+            "Period"
+          ],
+          "rows": [
+            [
+              "LEO inclined",
+              "550 km",
+              "53°",
+              "12",
+              "95.6 min"
+            ],
+            [
+              "LEO polar / SSO",
+              "1,000 km",
+              "87°",
+              "8",
+              "105.1 min"
+            ],
+            [
+              "MEO comms (equatorial)",
+              "8,062 km",
+              "0°",
+              "1",
+              "287.8 min"
+            ],
+            [
+              "MEO navigation",
+              "23,222 km",
+              "56°",
+              "3",
+              "844.7 min"
+            ],
+            [
+              "GEO",
+              "35,786 km",
+              "0°",
+              "1",
+              "1436.1 min"
+            ]
+          ]
+        },
+        {
+          "title": "Contributing nations (illustrative)",
+          "columns": [
+            "Nation",
+            "Region",
+            "Satellites",
+            "Roles",
+            "Ground stations",
+            "Capacity share"
+          ],
+          "rows": [
+            [
+              "Canada",
+              "Americas",
+              "24",
+              "Comms, SSA",
+              "Inuvik, Gatineau",
+              "11%"
+            ],
+            [
+              "Brazil",
+              "Americas",
+              "16",
+              "EO, Comms",
+              "Alcântara, Cuiabá",
+              "9%"
+            ],
+            [
+              "France",
+              "Europe & Arctic",
+              "36",
+              "Comms, PNT",
+              "Toulouse, Kourou, Réunion",
+              "22%"
+            ],
+            [
+              "Norway",
+              "Europe & Arctic",
+              "16",
+              "Comms, SSA",
+              "Svalbard, Tromsø",
+              "10%"
+            ],
+            [
+              "United Arab Emirates",
+              "Middle East & Africa",
+              "12",
+              "Comms, EO",
+              "Abu Dhabi, Al Ain",
+              "11%"
+            ],
+            [
+              "Kenya",
+              "Middle East & Africa",
+              "6",
+              "EO",
+              "Malindi, Nairobi",
+              "6%"
+            ],
+            [
+              "Japan",
+              "Indo-Pacific",
+              "35",
+              "Comms, ISR, PNT",
+              "Tsukuba, Okinawa",
+              "18%"
+            ],
+            [
+              "Australia",
+              "Indo-Pacific",
+              "28",
+              "Comms, EO",
+              "Geraldton, Alice Springs",
+              "13%"
+            ]
+          ]
+        },
+        {
+          "title": "Regional operations centres (illustrative hosts)",
+          "columns": [
+            "Centre",
+            "Host",
+            "Lead / co-staff",
+            "Area of responsibility",
+            "Fails over to"
+          ],
+          "rows": [
+            [
+              "Americas RSOC",
+              "Ottawa region",
+              "Canada / Brazil",
+              "North and South America, western Atlantic, eastern Pacific",
+              "Europe & Arctic RSOC"
+            ],
+            [
+              "Europe & Arctic RSOC",
+              "Toulouse region",
+              "France / Norway",
+              "Europe, Arctic, North Atlantic",
+              "Americas RSOC"
+            ],
+            [
+              "Middle East & Africa RSOC",
+              "Abu Dhabi region",
+              "UAE / Kenya",
+              "Middle East, Africa, western Indian Ocean",
+              "Indo-Pacific RSOC"
+            ],
+            [
+              "Indo-Pacific RSOC",
+              "Canberra region",
+              "Australia / Japan",
+              "Asia-Pacific, eastern Indian Ocean, western Pacific",
+              "Middle East & Africa RSOC"
+            ]
+          ]
+        }
+      ],
+      "table_note": "Tables are copied from the data in the model's source. Every partner, count, site and share is an example figure, not a real programme.",
+      "related_projects": [],
+      "doc": null,
+      "related_files": [],
+      "sign_in_note": "The interactive page opens in Grok Bot and needs Paul's sign-in, because Grok Bot pages are private by default.",
+      "model_url": "https://cursor.com/canvas/store-bcc57f3f-819e-4186-86ea-78a5a5d66766/dc1d8a81-9698-41be-b120-46a723ce00ad",
+      "sources": [
+        {
+          "title": "IRIS² programme overview",
+          "site": "eu-space.europa.eu",
+          "href": "https://eu-space.europa.eu/programmes/secure-connectivity-iris2-and-govsatcom/eu-secure-connectivity-programme-iris2"
+        },
+        {
+          "title": "EU accelerating and reinforcing IRIS² (Aug 2026)",
+          "site": "defence-industry-space.ec.europa.eu",
+          "href": "https://defence-industry-space.ec.europa.eu/european-union-accelerating-and-reinforcing-iris2-2026-08-07_en"
+        },
+        {
+          "title": "SpaceRISE governance",
+          "site": "spacerise.eu",
+          "href": "https://www.spacerise.eu/"
+        },
+        {
+          "title": "Galileo programme",
+          "site": "euspa.europa.eu",
+          "href": "https://www.euspa.europa.eu/eu-space-programme/galileo"
+        },
+        {
+          "title": "Galileo Security Monitoring Centre",
+          "site": "euspa.europa.eu",
+          "href": "https://www.euspa.europa.eu/eu-space-programme/galileo/galileo-security-monitoring-centre"
+        },
+        {
+          "title": "NATO satellite communications (NSS6G)",
+          "site": "nato.int",
+          "href": "https://www.nato.int/en/what-we-do/deterrence-and-defence/satellite-communications"
+        },
+        {
+          "title": "Luxembourg and Spain join NATO SATCOM consortium",
+          "site": "ncia.nato.int",
+          "href": "https://www.ncia.nato.int/newsroom/news/luxembourg-and-spain-join-nato-satcom-consortium"
+        },
+        {
+          "title": "Poland joins the WGS programme",
+          "site": "argus.gov.pl",
+          "href": "https://argus.gov.pl/en/news-feed/poland-joins-wgs/"
+        },
+        {
+          "title": "GDPR, Regulation (EU) 2016/679",
+          "site": "eur-lex.europa.eu",
+          "href": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        },
+        {
+          "title": "EU Dual-Use Regulation (EU) 2021/821",
+          "site": "eur-lex.europa.eu",
+          "href": "https://eur-lex.europa.eu/eli/reg/2021/821/oj"
+        },
+        {
+          "title": "ITAR, 22 CFR Subchapter M",
+          "site": "ecfr.gov",
+          "href": "https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M"
+        },
+        {
+          "title": "ITU Radio Regulations",
+          "site": "itu.int",
+          "href": "https://www.itu.int/pub/R-REG-RR"
+        }
+      ]
+    },
+    {
+      "slug": "federated-sovereign-starlink-model",
+      "type": "model",
+      "title": "Federated Sovereign Starlink Model",
+      "date": "2026-10-30T00:02",
+      "tags": [
+        "Interactive Model",
+        "LEO Satellite",
+        "Government",
+        "Defense",
+        "Sovereignty"
+      ],
+      "disclaimer": "Concept model: figures are illustrative",
+      "summary": "A reference model in which partner nations nationalise a slice of a Starlink-class network along a five-level ladder (L0 to L4), from a sovereign partition up to nation-owned satellites under national command, each run from a sovereign national ops centre linked to SpaceX core operations and a federation layer. Starlink, Starshield and policy facts are sourced; every partner, count, site and share is illustrative.",
+      "short_summary": "Five levels of nationalised Starlink, L0 to L4, from a sovereign partition to nation-owned satellites under national command, each run from a sovereign national ops centre.",
+      "stats": [
+        "5 sovereignty levels (L0–L4)",
+        "8 hypothetical partner nations",
+        "352 example nation-owned satellites",
+        "8 FCC-licensed shells"
+      ],
+      "description": [
+        "Nationalisation is treated as a ladder: each rung moves one more control from SpaceX to the nation, first where traffic lands, then who owns the satellites, and finally who holds the command keys. The model notes that no public source shows SpaceX selling satellites with transferred command authority to a foreign government; the closest public precedents are US-only (MILNET / SDN Backbone and the NRO's proliferated constellation).",
+        "It covers the sovereign national ops centre, the split of control between SpaceX, the nation and the federation at L2, L3 and L4, laser-mesh routing handover, sovereignty controls, a layered architecture, feasibility and risks, and a table separating real facts from illustrative ones."
+      ],
+      "explore": [
+        "Constellation explorer: a ground map or 3D shell view (120× real time) with nation-owned satellites over a sampled commercial fleet, the laser mesh, sovereign ops centres and gateways.",
+        "Routing policy switch (sovereign only, federated partners, full Starlink mesh) with a live route readout, showing why a small national fleet often has no end-to-end path.",
+        "Participating nations table, sortable by satellites, level or capacity reservation.",
+        "Split-of-control table that changes between L2 partition, L3 dedicated GOCO and L4 national command.",
+        "Interactive layered-architecture diagram, filterable by nation, federated or SpaceX-retained control."
+      ],
+      "tables": [
+        {
+          "title": "The five levels (L0–L4)",
+          "columns": [
+            "Level",
+            "What it means",
+            "Owns satellites",
+            "Commands",
+            "Traffic lands",
+            "Public status"
+          ],
+          "rows": [
+            [
+              "L0 Commercial service",
+              "Subscription on the shared Starlink network",
+              "SpaceX",
+              "SpaceX",
+              "SpaceX gateways and PoPs",
+              "Exists publicly"
+            ],
+            [
+              "L1 Government service tier",
+              "Starshield terminals and contracted service terms",
+              "SpaceX",
+              "SpaceX, with contract terms",
+              "SpaceX network, extra encryption",
+              "Exists publicly"
+            ],
+            [
+              "L2 Sovereign partition",
+              "National gateway, PoP, lawful intercept and data residency on shared satellites",
+              "SpaceX",
+              "SpaceX; nation sets slice policy",
+              "In-country gateway and PoP only",
+              "Partial precedent"
+            ],
+            [
+              "L3 Dedicated satellites, GOCO",
+              "Nation-funded Starshield-class satellites operated by SpaceX under a national mission director",
+              "Nation",
+              "SpaceX crews, tasked by nation",
+              "National gateway; mesh by policy",
+              "Partial precedent"
+            ],
+            [
+              "L4 Full national ownership and command",
+              "Nation owns satellites, runs TT&C and holds command keys; SpaceX supplies bus, launch and mesh access",
+              "Nation",
+              "Nation",
+              "National gateway; sovereign mesh island possible",
+              "Proposed concept"
+            ]
+          ]
+        },
+        {
+          "title": "Participating nations (hypothetical)",
+          "columns": [
+            "Nation",
+            "Level",
+            "Dedicated satellites",
+            "Shells",
+            "Capacity reserved"
+          ],
+          "rows": [
+            [
+              "United States",
+              "L3",
+              "120",
+              "G2-480 ×72, G2-360 ×48",
+              "30%"
+            ],
+            [
+              "United Kingdom",
+              "L4",
+              "48",
+              "G2-480 ×48",
+              "12%"
+            ],
+            [
+              "Canada",
+              "L3",
+              "36",
+              "G2-360 ×36",
+              "8%"
+            ],
+            [
+              "Poland",
+              "L3",
+              "24",
+              "G2-480 ×24",
+              "6%"
+            ],
+            [
+              "Italy",
+              "L4",
+              "36",
+              "G2-485 ×36",
+              "8%"
+            ],
+            [
+              "Japan",
+              "L3",
+              "48",
+              "G2-485 ×32, G2-475 ×16",
+              "10%"
+            ],
+            [
+              "Australia",
+              "L3",
+              "40",
+              "G2-485 ×24, G2-360 ×16",
+              "9%"
+            ],
+            [
+              "India",
+              "L2",
+              "0",
+              "None (partition on shared satellites)",
+              "17%"
+            ]
+          ]
+        },
+        {
+          "title": "Shells used (real FCC-licensed parameters)",
+          "columns": [
+            "Shell",
+            "Altitude",
+            "Inclination",
+            "Source"
+          ],
+          "rows": [
+            [
+              "Gen1 550 km / 53°",
+              "550 km",
+              "53°",
+              "FCC 21-48"
+            ],
+            [
+              "Gen1 570 km / 70°",
+              "570 km",
+              "70°",
+              "FCC 21-48"
+            ],
+            [
+              "Gen1 560 km / 97.6°",
+              "560 km",
+              "97.6°",
+              "FCC 21-48"
+            ],
+            [
+              "Gen2 480 km / 53°",
+              "480 km",
+              "53°",
+              "FCC DA 26-36"
+            ],
+            [
+              "Gen2 485 km / 43°",
+              "485 km",
+              "43°",
+              "FCC DA 26-36"
+            ],
+            [
+              "Gen2 475 km / 32°",
+              "475 km",
+              "32°",
+              "FCC DA 26-36"
+            ],
+            [
+              "Gen2 360 km / 96.9°",
+              "360 km",
+              "96.9°",
+              "FCC DA 26-36"
+            ],
+            [
+              "Gen2 340 km / 53°",
+              "340 km",
+              "53°",
+              "FCC DA 26-36"
+            ]
+          ]
+        }
+      ],
+      "table_note": "Tables are copied from the data in the model's source. The levels and shell parameters are sourced in the model; partner nations, satellite counts, levels assigned and reservations are illustrative.",
+      "related_projects": [
+        "federated-sovereign-starlink-white-paper"
+      ],
+      "doc": null,
+      "related_files": [],
+      "sign_in_note": "The interactive page opens in Grok Bot and needs Paul's sign-in, because Grok Bot pages are private by default.",
+      "model_url": "https://cursor.com/canvas/store-bcc57f3f-819e-4186-86ea-78a5a5d66766/2983ea20-840e-4e73-80b4-c5882404bdae",
+      "sources": [
+        {
+          "title": "Starshield",
+          "site": "spacex.com",
+          "href": "https://www.spacex.com/starshield"
+        },
+        {
+          "title": "Starlink technology (laser links)",
+          "site": "starlink.com",
+          "href": "https://starlink.com/technology"
+        },
+        {
+          "title": "Starlink network update",
+          "site": "starlink.com",
+          "href": "https://starlink.com/updates/network-update"
+        },
+        {
+          "title": "FCC Gen2 Starlink authorization DA 26-36",
+          "site": "fcc.gov",
+          "href": "https://www.fcc.gov/document/spacex-gen2-upgrade-applications-partial-grant"
+        },
+        {
+          "title": "NRO launches NROL-105",
+          "site": "nro.gov",
+          "href": "https://www.nro.gov/news-media-featured-stories/news-media-press-releases/Archived-Press-Releases/Press-Release-Article/Article/4382179/nro-launches-twelfth-proliferated-architecture-mission-with-nrol-105/"
+        },
+        {
+          "title": "Space Force contracting SpaceX for MILNET",
+          "site": "breakingdefense.com",
+          "href": "https://breakingdefense.com/2025/06/space-force-is-contracting-with-spacex-for-new-secretive-milnet-satcom-network/"
+        },
+        {
+          "title": "SpaceX wins $2.29B SDN Backbone",
+          "site": "breakingdefense.com",
+          "href": "https://breakingdefense.com/2026/05/spacex-wins-2-29b-to-speed-space-forces-leo-communications-backbone/"
+        },
+        {
+          "title": "Pentagon IG declines Starlink/Starshield probe",
+          "site": "arstechnica.com",
+          "href": "https://arstechnica.com/tech-policy/2026/10/pentagon-ig-refuses-to-investigate-starlink-starshield-slowdown-in-ukraine/"
+        },
+        {
+          "title": "Musk refused Kyiv request near Crimea",
+          "site": "reuters.com",
+          "href": "https://www.reuters.com/world/europe/musk-says-he-refused-kyiv-request-use-starlink-attack-russia-2023-09-08/"
+        },
+        {
+          "title": "Starlink India permit conditions",
+          "site": "thehindu.com",
+          "href": "https://www.thehindu.com/sci-tech/technology/permit-to-starlink-bars-copying-decryption-of-indian-data-overseas-mos-telecom/article69973814.ece"
+        },
+        {
+          "title": "India satcom rules: localisation, intercept",
+          "site": "indianexpress.com",
+          "href": "https://indianexpress.com/article/business/companies/india-rules-starlink-local-manufacturing-data-localisation-security-cooperation-9985151/"
+        },
+        {
+          "title": "Italy's Starlink talks raise concerns",
+          "site": "dw.com",
+          "href": "https://www.dw.com/en/elon-musks-starlink-talks-with-italy-raise-concerns/a-71251164"
+        },
+        {
+          "title": "IRIS² programme",
+          "site": "eu-space.europa.eu",
+          "href": "https://eu-space.europa.eu/programmes/secure-connectivity-iris2-and-govsatcom/eu-secure-connectivity-programme-iris2"
+        },
+        {
+          "title": "Starship orbital debut with Starlink V3",
+          "site": "reuters.com",
+          "href": "https://www.reuters.com/business/media-telecom/spacexs-starship-launches-14th-flight-first-headed-orbit-2026-09-28/"
+        }
+      ]
+    },
+    {
+      "slug": "starlink-constellation-simulator",
+      "type": "model",
+      "title": "Starlink Constellation Simulator",
+      "date": "2026-10-30T00:03",
+      "tags": [
+        "Interactive Model",
+        "LEO Satellite",
+        "Simulation"
+      ],
+      "disclaimer": "Simulation, not live tracking",
+      "summary": "A physics-based simulation of Starlink's FCC-filed Walker-delta shells: circular Keplerian orbits with J2 drift, a day/night globe, ground tracks, coverage at a chosen minimum elevation, visibility from any place, and a simplified laser-mesh route compared with fibre. Positions come from filed shell geometry with an illustrative phasing factor, not real orbital elements.",
+      "short_summary": "Simulates Starlink's FCC-filed shells with J2 drift, coverage at a chosen minimum elevation, visibility from any city, and a laser-mesh route compared with fibre.",
+      "stats": [
+        "9 filed shells",
+        "18,088 satellites filed across listed shells",
+        "Gen1: 4,408 in 5 shells (FCC 21-48)",
+        "Scale 10–100%, speed 1–1000×"
+      ],
+      "description": [
+        "The simulator builds each filed shell as a Walker-delta pattern and propagates circular orbits with secular J2 drift. It recomputes global coverage, average visible satellites and visibility from a chosen observer every second, and estimates propagation latency for a bent-pipe path and a laser-mesh route against great-circle fibre.",
+        "It lists what is simplified: no drag or manoeuvres, an illustrative phasing factor (F = 1), filed shell sizes rather than satellites actually in orbit, a textbook four-link +grid laser mesh within one shell, propagation delay only, and illustrative gateway markers. The start time is the moment the page is opened, so the dots are not where real Starlink satellites are."
+      ],
+      "explore": [
+        "3D globe or ground-track map with play, speed (1× to 1000×), zoom and a 0–7 day time scrubber.",
+        "Minimum-elevation slider (5° to 60°), coverage heatmap, footprints, observer links, ground tracks, laser links and illustrative gateways.",
+        "Live stats: simulated satellites, global coverage, average visible satellites, satellites visible from the observer, the highest satellite, a latency estimate and handovers.",
+        "Shell toggles, a 10–100% scale, J2 precession on or off, and Gen2 at the 2026 lowered altitudes.",
+        "Custom shell builder (altitude, inclination, planes, satellites per plane, phasing) with period, velocity, J2 precession and footprint.",
+        "Laser-mesh route versus fibre between two cities, with distance, hops and latency."
+      ],
+      "tables": [
+        {
+          "title": "Filed shells in the simulator",
+          "columns": [
+            "Shell",
+            "Altitude",
+            "Inclination",
+            "Planes × sats per plane",
+            "Source",
+            "Default"
+          ],
+          "rows": [
+            [
+              "Gen1 550 km / 53°",
+              "550 km",
+              "53°",
+              "72 × 22 = 1,584",
+              "FCC 21-48",
+              "On"
+            ],
+            [
+              "Gen1 540 km / 53.2°",
+              "540 km",
+              "53.2°",
+              "72 × 22 = 1,584",
+              "FCC 21-48",
+              "On"
+            ],
+            [
+              "Gen1 570 km / 70°",
+              "570 km",
+              "70°",
+              "36 × 20 = 720",
+              "FCC 21-48",
+              "On"
+            ],
+            [
+              "Gen1 560 km / 97.6° (6 planes)",
+              "560 km",
+              "97.6°",
+              "6 × 58 = 348",
+              "FCC 21-48",
+              "On"
+            ],
+            [
+              "Gen1 560 km / 97.6° (4 planes)",
+              "560 km",
+              "97.6°",
+              "4 × 43 = 172",
+              "FCC 21-48",
+              "On"
+            ],
+            [
+              "Gen2 525 km / 53°",
+              "525 km (lowered: 480 km)",
+              "53°",
+              "28 × 120 = 3,360",
+              "FCC 22-91; DA 26-36 lowers to 480 km",
+              "On"
+            ],
+            [
+              "Gen2 530 km / 43°",
+              "530 km (lowered: 485 km)",
+              "43°",
+              "28 × 120 = 3,360",
+              "FCC 22-91; DA 26-36 lowers to 485 km",
+              "On"
+            ],
+            [
+              "Gen2 535 km / 33°",
+              "535 km (lowered: 475 km)",
+              "33°",
+              "28 × 120 = 3,360",
+              "FCC 22-91; DA 26-36 lowers to 475 km (28° or 32°)",
+              "On"
+            ],
+            [
+              "Gen2 360 km / 96.9° (VLEO)",
+              "360 km",
+              "96.9°",
+              "30 × 120 = 3,600",
+              "Gen2 amended application, per McDowell; DA 26-36 shell",
+              "Off"
+            ]
+          ]
+        }
+      ],
+      "table_note": "Copied from the shell definitions in the simulator's source. Total across all listed shells: 18,088; the shells enabled by default total 14,488. These are filed sizes, not satellites actually in orbit.",
+      "related_projects": [],
+      "doc": null,
+      "related_files": [],
+      "sign_in_note": "The interactive page opens in Grok Bot and needs Paul's sign-in, because Grok Bot pages are private by default.",
+      "model_url": "https://cursor.com/canvas/store-bcc57f3f-819e-4186-86ea-78a5a5d66766/7432486d-0b00-43a8-bf5d-0e72e66a8b0b",
+      "sources": [
+        {
+          "title": "FCC 21-48: Gen1 modification (4,408 satellites, five shells)",
+          "site": "docs.fcc.gov",
+          "href": "https://docs.fcc.gov/public/attachments/FCC-21-48A1.pdf"
+        },
+        {
+          "title": "FCC 22-91: Gen2 grant (525/530/535 km; 28 planes × 120)",
+          "site": "docs.fcc.gov",
+          "href": "https://docs.fcc.gov/public/attachments/FCC-22-91A1.pdf"
+        },
+        {
+          "title": "FCC DA 26-36: Gen2 upgrade, shells 340–485 km",
+          "site": "fcc.gov",
+          "href": "https://www.fcc.gov/document/spacex-gen2-upgrade-applications-partial-grant"
+        },
+        {
+          "title": "Starlink constellation shell tables (J. McDowell)",
+          "site": "planet4589.org",
+          "href": "https://planet4589.org/sci/starsim/con.html"
+        },
+        {
+          "title": "Starlink technology: three lasers per satellite",
+          "site": "starlink.com",
+          "href": "https://starlink.com/technology"
+        }
+      ]
+    }
+  ]
+}

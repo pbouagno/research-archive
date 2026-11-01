@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.port
+.venv/
+server.log
+tunnelto.log
+shots/

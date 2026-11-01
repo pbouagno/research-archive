@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<meta name="color-scheme" content="dark">
+<title>Starlink Constellation Simulator · Intel Bob Research Archive</title>
+<meta name="description" content="A physics-based simulation of Starlink&#x27;s FCC-filed Walker-delta shells: circular Keplerian orbits with J2 drift, a day/night globe, ground tracks, coverage at a chosen minimum elevation, visibility from any place, and a simplified laser-mesh route compared with fibre. Positions come from filed shell geometry with an illustrative phasing factor, not real orbital elements.">
+<link rel="preload" href="../../assets/fonts/Barlow-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../assets/fonts/Barlow-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../assets/v2.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="../../index.html">Intel Bob <span>Research Archive</span></a>
+    <a class="nav-link" href="../../../index.html">Classic view</a>
+  </div>
+</header>
+
+<main id="main" class="container">
+  <a class="back" href="../../index.html"><span aria-hidden="true">←</span> All reports</a>
+  <header class="report-head">
+    <p class="eyebrow"><time datetime="2026-10-30T00:03">Oct 30, 2026</time></p>
+    <h1>Starlink Constellation Simulator</h1>
+    <p class="disclaimer" role="note"><span aria-hidden="true">⚠</span> Simulation, not live tracking</p>
+    <ul class="tags"><li>Interactive Model</li><li>LEO Satellite</li><li>Simulation</li></ul>
+    <p class="lede">A physics-based simulation of Starlink&#x27;s FCC-filed Walker-delta shells: circular Keplerian orbits with J2 drift, a day/night globe, ground tracks, coverage at a chosen minimum elevation, visibility from any place, and a simplified laser-mesh route compared with fibre. Positions come from filed shell geometry with an illustrative phasing factor, not real orbital elements.</p>
+    <ul class="stats"><li>9 filed shells</li><li>18,088 satellites filed across listed shells</li><li>Gen1: 4,408 in 5 shells (FCC 21-48)</li><li>Scale 10–100%, speed 1–1000×</li></ul>
+    <div class="actions"><a class="btn btn-white" href="https://cursor.com/canvas/store-bcc57f3f-819e-4186-86ea-78a5a5d66766/7432486d-0b00-43a8-bf5d-0e72e66a8b0b" target="_blank" rel="noopener noreferrer">Open interactive model<span class="arrow" aria-hidden="true">↗</span></a></div>
+    <p class="signin">The interactive page opens in Grok Bot and needs Paul&#x27;s sign-in, because Grok Bot pages are private by default.</p>
+    
+  </header>
+  <details class="contents"><summary>Contents</summary><ol><li class="lvl-h2"><a href="#about-this-model">About this model</a></li><li class="lvl-h2"><a href="#what-you-can-explore">What you can explore</a></li><li class="lvl-h2"><a href="#static-summary">Static summary</a></li><li class="lvl-h2"><a href="#sources-cited-in-the-model">Sources cited in the model</a></li><li class="lvl-h2"><a href="#open-the-model">Open the model</a></li><li class="lvl-h1"><a href="#links">Links (6)</a></li></ol></details>
+  <article class="doc"><h2 id="about-this-model">About this model</h2>
+<p>The simulator builds each filed shell as a Walker-delta pattern and propagates circular orbits with secular J2 drift. It recomputes global coverage, average visible satellites and visibility from a chosen observer every second, and estimates propagation latency for a bent-pipe path and a laser-mesh route against great-circle fibre.</p>
+<p>It lists what is simplified: no drag or manoeuvres, an illustrative phasing factor (F = 1), filed shell sizes rather than satellites actually in orbit, a textbook four-link +grid laser mesh within one shell, propagation delay only, and illustrative gateway markers. The start time is the moment the page is opened, so the dots are not where real Starlink satellites are.</p>
+<h2 id="what-you-can-explore">What you can explore</h2><ul><li>3D globe or ground-track map with play, speed (1× to 1000×), zoom and a 0–7 day time scrubber.</li><li>Minimum-elevation slider (5° to 60°), coverage heatmap, footprints, observer links, ground tracks, laser links and illustrative gateways.</li><li>Live stats: simulated satellites, global coverage, average visible satellites, satellites visible from the observer, the highest satellite, a latency estimate and handovers.</li><li>Shell toggles, a 10–100% scale, J2 precession on or off, and Gen2 at the 2026 lowered altitudes.</li><li>Custom shell builder (altitude, inclination, planes, satellites per plane, phasing) with period, velocity, J2 precession and footprint.</li><li>Laser-mesh route versus fibre between two cities, with distance, hops and latency.</li></ul>
+<h2 id="static-summary">Static summary</h2>
+<p class="caption-note">Copied from the shell definitions in the simulator&#x27;s source. Total across all listed shells: 18,088; the shells enabled by default total 14,488. These are filed sizes, not satellites actually in orbit.</p>
+<h3 id="filed-shells-in-the-simulator">Filed shells in the simulator</h3><div class="table-wrap"><table class="model-table"><thead><tr><th>Shell</th><th>Altitude</th><th>Inclination</th><th>Planes × sats per plane</th><th>Source</th><th>Default</th></tr></thead><tbody><tr><td>Gen1 550 km / 53°</td><td>550 km</td><td>53°</td><td>72 × 22 = 1,584</td><td>FCC 21-48</td><td>On</td></tr><tr><td>Gen1 540 km / 53.2°</td><td>540 km</td><td>53.2°</td><td>72 × 22 = 1,584</td><td>FCC 21-48</td><td>On</td></tr><tr><td>Gen1 570 km / 70°</td><td>570 km</td><td>70°</td><td>36 × 20 = 720</td><td>FCC 21-48</td><td>On</td></tr><tr><td>Gen1 560 km / 97.6° (6 planes)</td><td>560 km</td><td>97.6°</td><td>6 × 58 = 348</td><td>FCC 21-48</td><td>On</td></tr><tr><td>Gen1 560 km / 97.6° (4 planes)</td><td>560 km</td><td>97.6°</td><td>4 × 43 = 172</td><td>FCC 21-48</td><td>On</td></tr><tr><td>Gen2 525 km / 53°</td><td>525 km (lowered: 480 km)</td><td>53°</td><td>28 × 120 = 3,360</td><td>FCC 22-91; DA 26-36 lowers to 480 km</td><td>On</td></tr><tr><td>Gen2 530 km / 43°</td><td>530 km (lowered: 485 km)</td><td>43°</td><td>28 × 120 = 3,360</td><td>FCC 22-91; DA 26-36 lowers to 485 km</td><td>On</td></tr><tr><td>Gen2 535 km / 33°</td><td>535 km (lowered: 475 km)</td><td>33°</td><td>28 × 120 = 3,360</td><td>FCC 22-91; DA 26-36 lowers to 475 km (28° or 32°)</td><td>On</td></tr><tr><td>Gen2 360 km / 96.9° (VLEO)</td><td>360 km</td><td>96.9°</td><td>30 × 120 = 3,600</td><td>Gen2 amended application, per McDowell; DA 26-36 shell</td><td>Off</td></tr></tbody></table></div>
+<h2 id="sources-cited-in-the-model">Sources cited in the model</h2><ul><li><a href="https://docs.fcc.gov/public/attachments/FCC-21-48A1.pdf" target="_blank" rel="noopener noreferrer">FCC 21-48: Gen1 modification (4,408 satellites, five shells)</a> (docs.fcc.gov)</li><li><a href="https://docs.fcc.gov/public/attachments/FCC-22-91A1.pdf" target="_blank" rel="noopener noreferrer">FCC 22-91: Gen2 grant (525/530/535 km; 28 planes × 120)</a> (docs.fcc.gov)</li><li><a href="https://www.fcc.gov/document/spacex-gen2-upgrade-applications-partial-grant" target="_blank" rel="noopener noreferrer">FCC DA 26-36: Gen2 upgrade, shells 340–485 km</a> (fcc.gov)</li><li><a href="https://planet4589.org/sci/starsim/con.html" target="_blank" rel="noopener noreferrer">Starlink constellation shell tables (J. McDowell)</a> (planet4589.org)</li><li><a href="https://starlink.com/technology" target="_blank" rel="noopener noreferrer">Starlink technology: three lasers per satellite</a> (starlink.com)</li></ul>
+<h2 id="open-the-model">Open the model</h2><p>The live, interactive version is a Grok Bot page: <a href="https://cursor.com/canvas/store-bcc57f3f-819e-4186-86ea-78a5a5d66766/7432486d-0b00-43a8-bf5d-0e72e66a8b0b" target="_blank" rel="noopener noreferrer">Starlink Constellation Simulator</a>. The interactive page opens in Grok Bot and needs Paul&#x27;s sign-in, because Grok Bot pages are private by default. This archive page is a static summary only; it does not re-implement the model.</p></article>
+  <section class="links" id="links"><h2>Links <span class="count">6</span></h2><p class="note">Every unique external link in the document, in order of first appearance.</p><label class="sr" for="lf">Filter links</label><input id="lf" class="input" type="search" placeholder="Filter links" autocomplete="off"><ol class="link-list"><li><a href="https://docs.fcc.gov/public/attachments/FCC-21-48A1.pdf" target="_blank" rel="noopener noreferrer">FCC 21-48: Gen1 modification (4,408 satellites, five shells)</a><span class="domain">docs.fcc.gov</span></li><li><a href="https://docs.fcc.gov/public/attachments/FCC-22-91A1.pdf" target="_blank" rel="noopener noreferrer">FCC 22-91: Gen2 grant (525/530/535 km; 28 planes × 120)</a><span class="domain">docs.fcc.gov</span></li><li><a href="https://www.fcc.gov/document/spacex-gen2-upgrade-applications-partial-grant" target="_blank" rel="noopener noreferrer">FCC DA 26-36: Gen2 upgrade, shells 340–485 km</a><span class="domain">fcc.gov</span></li><li><a href="https://planet4589.org/sci/starsim/con.html" target="_blank" rel="noopener noreferrer">Starlink constellation shell tables (J. McDowell)</a><span class="domain">planet4589.org</span></li><li><a href="https://starlink.com/technology" target="_blank" rel="noopener noreferrer">Starlink technology: three lasers per satellite</a><span class="domain">starlink.com</span></li><li><a href="https://cursor.com/canvas/store-bcc57f3f-819e-4186-86ea-78a5a5d66766/7432486d-0b00-43a8-bf5d-0e72e66a8b0b" target="_blank" rel="noopener noreferrer">Starlink Constellation Simulator</a><span class="domain">cursor.com</span></li></ol></section>
+</main>
+<script src="../../assets/v2.js"></script>
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>Intel Bob Research Archive © 2026</span>
+    <span>Built Oct 31, 2026 14:21 PT</span>
+  </div>
+</footer>
+</body>
+</html>
