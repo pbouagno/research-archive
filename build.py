@@ -202,8 +202,6 @@ def build():
     if DIST.exists():
         shutil.rmtree(DIST)
     (DIST / "assets").mkdir(parents=True)
-    # Pages serves dist/ as-is. Keep Jekyll off, including after a rebuild wipes dist/.
-    (DIST / ".nojekyll").write_text("", encoding="utf-8")
     for f in SRC.glob("*"):
         if f.is_file():
             shutil.copy2(f, DIST / "assets" / f.name)
@@ -319,6 +317,7 @@ def build():
     (DIST / "index.html").write_text(page(manifest["site_title"], index_body, depth=0, desc=manifest.get("site_subtitle", "")), encoding="utf-8")
 
     (DIST / "v2" / "index.html").write_text(v2.index(manifest, cards), encoding="utf-8")
+    (DIST / ".nojekyll").write_text("", encoding="utf-8")  # GitHub Pages: serve files as-is, no Jekyll
 
     print(f"Built {len(cards)} projects (classic view at /, v2 view at /v2/) into {DIST} ({len(all_tags)} tags)")
     for slug, status, warnings in report:

@@ -980,6 +980,199 @@
           "href": "https://starlink.com/technology"
         }
       ]
+    },
+    {
+      "slug": "starlink-vs-cellular-africa-telecom-strategy",
+      "type": "model",
+      "title": "Starlink vs Cellular: National Telecom Strategy for African Markets",
+      "date": "2026-11-03T20:00",
+      "tags": [
+        "Interactive Model",
+        "LEO Satellite",
+        "Business Plan",
+        "Financial",
+        "Government",
+        "Africa"
+      ],
+      "disclaimer": "Business plan model: totals and break-evens are illustrative estimates",
+      "summary": "A business plan for an African ministry comparing terrestrial cellular and Starlink-based connectivity, with unit costs from public sources (ITU, GSMA, World Bank, operator and Starlink pricing) and an illustrative 10-year model for a 50-million-person country. It finds a hybrid cheapest: towers and fibre for dense areas, small cells with Starlink backhaul below about 150 people per km², and household terminals only in the sparsest areas. Sourced figures are cited and dated; the country, totals, crossovers and break-evens come from the illustrative model.",
+      "short_summary": "Compares cellular towers and Starlink for an African national telecom strategy, finding a hybrid cheapest: towers in dense areas, small cells with Starlink backhaul below about 150 people per km².",
+      "stats": [
+        "$8.5B hybrid 10-yr TCO (illustrative)",
+        "150/km² tower vs satellite crossover",
+        "3 options: terrestrial, satellite-first, hybrid",
+        "Rural PPP break-even 2035 (with subsidy)"
+      ],
+      "description": [
+        "The plan sets out three options for an illustrative country of 50 million people on 600,000 km²: terrestrial-only, satellite-first and a hybrid. It costs each from public unit prices (ITU Nigeria site costs, towerco and fibre costs, Starlink retail and business pricing in Nigeria and Kenya) and compares 10-year total cost of ownership by density zone. In the model the hybrid costs $8.5B over 10 years, against $9.6B to $12.3B for terrestrial-only and $29.6B for satellite-first.",
+        "It recommends keeping cellular and fibre as the backbone for cities, a neutral-host rural access company building small cells with satellite backhaul plus community and institutional hotspots, direct-to-cell as a basic safety net, and more than one licensed satellite provider routed through a national gateway. It also covers market context, affordability against the 2%-of-income target, licensing and sovereignty, a risk register, financing, a roadmap with KPIs, and the model's assumptions."
+      ],
+      "explore": [
+        "Crossover chart: cost per subscriber per month versus population density for macro sites, small cells with Starlink backhaul, household terminals and community hotspots, with switches for backhaul price (0.7× to 3× retail) and data use (5, 8 or 12 GB per user).",
+        "10-year TCO for the illustrative country, as stacked totals or per user-month and per GB, plus a zone-by-zone technology choice table.",
+        "Unit-cost tables for terrestrial sites, power, backhaul and fibre, and Starlink pricing in Nigeria and Kenya.",
+        "Affordability test against 2% of GNI per capita for Nigeria and Kenya.",
+        "Licensing landscape (South Africa, Namibia, Cameroon, Kenya, Nigeria, DRC), a sovereignty ladder (L0 to L4) and a risk register.",
+        "Financing for a National Rural Access Company: cumulative cash flow, revenue versus cost, and break-even scenarios.",
+        "Roadmap from 2027 to 2036 with KPI targets."
+      ],
+      "tables": [
+        {
+          "title": "10-year TCO by option (illustrative 50M-person country)",
+          "columns": [
+            "Option",
+            "10-yr TCO",
+            "Capex",
+            "Per user-month",
+            "Per GB"
+          ],
+          "rows": [
+            [
+              "A terrestrial (full-area remote)",
+              "$12.3B",
+              "$7.3B",
+              "$5.12",
+              "$0.64"
+            ],
+            [
+              "A′ terrestrial (cluster-only remote)",
+              "$9.6B",
+              "$5.9B",
+              "$4.00",
+              "$0.50"
+            ],
+            [
+              "B satellite-first",
+              "$29.6B",
+              "$3.2B",
+              "$12.35",
+              "$1.54"
+            ],
+            [
+              "C hybrid",
+              "$8.5B",
+              "$4.4B",
+              "$3.54",
+              "$0.44"
+            ]
+          ]
+        },
+        {
+          "title": "Rural access company: break-even scenarios",
+          "columns": [
+            "Scenario",
+            "Break-even",
+            "10-yr cumulative cash",
+            "Year-10 EBITDA margin"
+          ],
+          "rows": [
+            [
+              "Base: 50% of capex from universal service fund",
+              "2035",
+              "+$121M",
+              "38%"
+            ],
+            [
+              "Satellite volume deal, backhaul 30% cheaper",
+              "2034",
+              "+$257M",
+              "45%"
+            ],
+            [
+              "No subsidy",
+              "Not within 10 years",
+              "−$104M",
+              "38%"
+            ],
+            [
+              "Backhaul 50% more expensive",
+              "Not within 10 years",
+              "−$107M",
+              "27%"
+            ],
+            [
+              "Wholesale share 55% instead of 70%",
+              "Not within 10 years",
+              "−$222M",
+              "22%"
+            ],
+            [
+              "ARPU stays flat",
+              "Not within 10 years",
+              "−$210M",
+              "12%"
+            ]
+          ]
+        }
+      ],
+      "table_note": "Tables are copied from the data in the plan's source. The country and every total, crossover and break-even are model estimates, not real programme figures.",
+      "related_projects": [],
+      "doc": null,
+      "related_files": [],
+      "sign_in_note": "The interactive page opens in Grok Bot and needs Paul's sign-in, because Grok Bot pages are private by default.",
+      "model_url": "https://cursor.com/canvas/store-bcc57f3f-819e-4186-86ea-78a5a5d66766/01cfaee3-6bb4-4ad9-9777-31bcdefd1643",
+      "sources": [
+        {
+          "title": "The Mobile Economy Africa 2026",
+          "site": "gsma.com",
+          "href": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-economy/wp-content/uploads/2026/06/The-Mobile-Economy-Africa-2026.pdf"
+        },
+        {
+          "title": "State of Mobile Internet Connectivity 2025",
+          "site": "gsma.com",
+          "href": "https://www.gsma.com/somic/wp-content/uploads/2025/09/The-State-of-Mobile-Internet-Connectivity-2025-Trends-in-Mobile-Internet-Connectivity.pdf"
+        },
+        {
+          "title": "ITU Facts and Figures 2025: Affordability",
+          "site": "itu.int",
+          "href": "https://www.itu.int/itu-d/reports/statistics/2025/10/15/ff25-affordability-of-ict-services/"
+        },
+        {
+          "title": "ITU technical study on ICT infrastructure costs in Nigeria (2024)",
+          "site": "itu.int",
+          "href": "https://www.itu.int/dms_pub/itu-d/opb/pref/D-PREF-EF.TS_NIGERIA-2024-PDF-E.pdf"
+        },
+        {
+          "title": "Broadband for all in Africa: $100 billion (2019)",
+          "site": "worldbank.org",
+          "href": "https://www.worldbank.org/en/news/press-release/2019/10/17/achieving-broadband-access-for-all-in-africa-comes-with-a-100-billion-price-tag"
+        },
+        {
+          "title": "Universal service funds in Africa (2023)",
+          "site": "gsma.com",
+          "href": "https://www.gsma.com/about-us/regions/africa/wp-content/uploads/2023/10/USF-Africa.pdf"
+        },
+        {
+          "title": "Starlink Nigeria service plans",
+          "site": "starlink.com",
+          "href": "https://starlink.com/ng/service-plans"
+        },
+        {
+          "title": "Starlink Kenya residential plans",
+          "site": "starlink.com",
+          "href": "https://starlink.com/ke/residential"
+        },
+        {
+          "title": "Vodacom Group and Starlink agreement (Nov 2025)",
+          "site": "vodacom.com",
+          "href": "https://www.vodacom.com/news-article.php?articleID=16456"
+        },
+        {
+          "title": "Airtel Africa to launch Starlink direct-to-cell in 14 markets",
+          "site": "reuters.com",
+          "href": "https://www.reuters.com/business/media-telecom/airtel-africa-teams-up-with-starlink-launch-direct-to-cell-service-14-markets-2025-12-16/"
+        },
+        {
+          "title": "South Africa eases ownership rules (Dec 2025)",
+          "site": "reuters.com",
+          "href": "https://www.reuters.com/world/africa/south-africa-eases-ownership-rules-opening-door-starlink-other-foreign-operators-2025-12-12/"
+        },
+        {
+          "title": "Starlink denied Namibia licence (Mar 2026)",
+          "site": "reuters.com",
+          "href": "https://www.reuters.com/world/africa/musks-starlink-denied-namibia-licence-ownership-compliance-reasons-2026-03-25/"
+        }
+      ]
     }
   ]
 }
