@@ -10,19 +10,25 @@
 <link rel="preload" href="assets/fonts/Barlow-Bold.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/Barlow-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/v2.css">
+<link rel="stylesheet" href="assets/briefings.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="nav">
   <div class="container nav-inner">
     <a class="brand" href="index.html">Intel Bob <span>Research Archive</span></a>
-    <a class="nav-link" href="../index.html">Classic view</a>
+    <nav class="nav-links" aria-label="Sections">
+      <a class="nav-link" href="index.html">Research</a>
+      <a class="nav-link" href="briefings/index.html">Daily Briefings</a>
+      <a class="nav-link" href="jobs/index.html">Satellite Jobs</a>
+      <a class="nav-link" href="../index.html">Classic view</a>
+    </nav>
   </div>
 </header>
 
 <main id="main" class="container">
   <section class="hero">
-    <p class="eyebrow">Intel Bob · 17 reports</p>
+    <p class="eyebrow">Intel Bob · 22 reports</p>
     <h1>Research Archive</h1>
     <p class="lede">Satellite communications, government directories, telecom strategy and financial analysis, newest first.</p>
     <div class="search">
@@ -30,8 +36,69 @@
       <input id="q" class="input" type="search" placeholder="Search reports" autocomplete="off">
       <span id="count" class="count-line" aria-live="polite"></span>
     </div>
+    <ul class="feed-cards" aria-label="Daily feeds"><li class="feed-card"><a href="briefings/index.html"><span class="eyebrow">Space &amp; defense news</span><span class="feed-card-title">Daily Briefings <span aria-hidden="true">→</span></span><span class="feed-card-sub">Latest: <time datetime="2026-11-09">Mon, Nov 9, 2026</time> · 12 briefings</span><span class="feed-card-sum">A new Democratic Congress looks set to rein in and likely rename Golden Dome, with space-based interceptors most at risk; NATO is about €7 billion short on its 2026 Ukraine aid pledge as Europe rehearses a postwar Ukraine force in Poland and heads to the Abu Dhabi talks; NASA launched CLPS 2, a $10 billion lunar lander contract with eight companies, plus a nuclear-powered rover and about $1.3 billion in transport task orders.</span></a></li><li class="feed-card"><a href="jobs/index.html"><span class="eyebrow">Amazon Leo · Telesat · Eutelsat · AST SpaceMobile</span><span class="feed-card-title">Satellite Jobs Tracker <span aria-hidden="true">→</span></span><span class="feed-card-sub">Latest: <time datetime="2026-11-09">Mon, Nov 9, 2026</time> · 11 reports</span><span class="feed-card-sum">40 new postings (37 at Amazon Leo, 3 at Eutelsat Group), 37 closed, 1,394 open across 4 companies.</span></a></li></ul>
   </section>
   <ol class="banners" id="banners">
+  <li class="banner" data-search=" iris² and satcombw stage 4: how cost and schedule have evolved a dated history of how cost estimates and deployment targets changed for the eu’s iris² secure-connectivity constellation and germany’s satcombw stage 4 leo programme. iris² rose from about €6bn in the 2022 proposal to €10.6bn at the dec 2024 contract and beyond €15.6bn after the aug 2026 addition of 66 military satellites (348 total), while first service slipped from 2024/2027 to progressive services from 2029 and commercial service by mid-2032. satcombw stage 4 has no official price (press: €8–10bn+), targets ioc around 2029, and its classified tender award has slipped from end-2026 toward 2027. iris² europe defense government leo satellite 10 pages 51 references 6 tables 3 charts">
+    <div class="banner-meta">
+      <time datetime="2026-11-09T12:10">Nov 9, 2026</time>
+      <span class="banner-tags">IRIS² · Europe · Defense · Government · LEO Satellite</span>
+    </div>
+    <div class="banner-body">
+      <h2><a href="projects/iris2-satcombw4-cost-timeline-evolution/index.html">IRIS² and SATCOMBw Stage 4: How Cost and Schedule Have Evolved</a></h2>
+      <p>How IRIS² costs roughly 2.6× the 2022 estimate with service five–six years later, and how SATCOMBw Stage 4’s award is slipping into 2027.</p>
+      
+    </div>
+    <span class="banner-go" aria-hidden="true">→</span>
+  </li>
+  <li class="banner" data-search=" japan’s j-leo program and the ciaj solicitation a deep dive into mic’s japan low earth orbit satellite communications project (j-leo) and the ciaj call that awarded it. the program subsidizes up to half the cost of a domestically controlled direct-to-smartphone leo system, capped at ¥148.0bn over three fiscal years from a ¥150bn fy2025 supplementary allocation, with nationwide service required by end-march 2029. ciaj’s mar 30–may 29, 2026 call selected rast with rakuten mobile on jun 30, 2026; company statements describe ~40–50 ast satellites on rakuten’s 1.7 ghz spectrum. covers mandatory conditions, governance, players, and comparisons with iris² and korea’s leo plans. japan direct-to-device government leo satellite 10 pages 49 references 7 tables">
+    <div class="banner-meta">
+      <time datetime="2026-11-09T10:39">Nov 9, 2026</time>
+      <span class="banner-tags">Japan · Direct-to-Device · Government · LEO Satellite</span>
+    </div>
+    <div class="banner-body">
+      <h2><a href="projects/japan-jleo-program-analysis/index.html">Japan’s J-LEO Program and the CIAJ Solicitation</a></h2>
+      <p>MIC’s J-LEO subsidy (up to ¥148bn) and the CIAJ call that selected Rakuten/RAST for a Japan-controlled direct-to-device LEO system by 2029.</p>
+      
+    </div>
+    <span class="banner-go" aria-hidden="true">→</span>
+  </li>
+  <li class="banner" data-search=" south korea’s defense space strategy &amp; military space architecture an analysis of south korea’s ministry of national defense space strategy and military space architecture as of early november 2026. it covers project 425’s completed 1 eo/ir + 4 sar constellation, the krw 1.4223 trillion microsatellite system (2022–2030), the satcom gap around anasis-ii and its 2031–32 replacement, a march 2026 leo satcom task force studying 128–512 satellites by about 2035, plus pnt, missile warning, sda, launch and industrial-base roles. a 14-row program table ties each effort to contractors and sourced timelines. defense government leo satellite strategy 8 pages 54 references 14-row program table">
+    <div class="banner-meta">
+      <time datetime="2026-11-07T14:01">Nov 7, 2026</time>
+      <span class="banner-tags">Defense · Government · LEO Satellite · Strategy</span>
+    </div>
+    <div class="banner-body">
+      <h2><a href="projects/korea-mnd-space-strategy-analysis/index.html">South Korea’s Defense Space Strategy &amp; Military Space Architecture</a></h2>
+      <p>Korea’s defense space architecture: Project 425 complete, microsatellites next, and military satcom still the main gap for LEO players.</p>
+      
+    </div>
+    <span class="banner-go" aria-hidden="true">→</span>
+  </li>
+  <li class="banner" data-search=" starlink gateways and the starlink community gateway for emerging markets a deep dive into starlink’s ground segment and the community gateway product for emerging-market use. it distinguishes spacex-owned standard gateways from the partner-operated community gateway (four 2.1 m dishes on a 12×12 m pad, advertised up to 20 gbps / &lt;90 ms), covers 20 sites in nine countries by end-2025, launch pricing reported at $1.25m upfront plus $75k per gbps per month, and assesses island transit, cellular backhaul, disaster recovery and regulatory constraints versus amazon leo, ses o3b mpower and others. leo satellite market analysis strategy pricing 12 pages 66 references 4 tables">
+    <div class="banner-meta">
+      <time datetime="2026-11-07T14:01">Nov 7, 2026</time>
+      <span class="banner-tags">LEO Satellite · Market Analysis · Strategy · Pricing</span>
+    </div>
+    <div class="banner-body">
+      <h2><a href="projects/starlink-community-gateway-emerging-markets/index.html">Starlink Gateways and the Starlink Community Gateway for Emerging Markets</a></h2>
+      <p>What the Starlink Community Gateway is, what it costs, where it is deployed, and where it fits emerging-market backhaul and transit use cases.</p>
+      
+    </div>
+    <span class="banner-go" aria-hidden="true">→</span>
+  </li>
+  <li class="banner" data-search=" satellite communications resellers &amp; integrators across starlink, oneweb, viasat and ses profiles of 13 satcom resellers and integrators spanning starlink, eutelsat oneweb, viasat/inmarsat and ses/intelsat channels: marlink, speedcast, kvh, gogo (incl. satcom direct), panasonic avionics, hughes, navarino, network innovations, tampnet, space norway, nelco, telstra and kymeta. it covers ownership, financials where public, sector focus (maritime, aviation, enterprise, government) and documented operator relationships, and notes starlink’s may 2026 freeze on new reseller applications. leo satellite market analysis financial eutelsat oneweb 14 pages 83 references 13 companies">
+    <div class="banner-meta">
+      <time datetime="2026-11-07T14:01">Nov 7, 2026</time>
+      <span class="banner-tags">LEO Satellite · Market Analysis · Financial · Eutelsat OneWeb</span>
+    </div>
+    <div class="banner-body">
+      <h2><a href="projects/satcom-resellers-analysis/index.html">Satellite Communications Resellers &amp; Integrators across Starlink, OneWeb, Viasat and SES</a></h2>
+      <p>Financials, sectors and capabilities of 13 top satcom resellers across Starlink, OneWeb, Viasat/Inmarsat and SES/Intelsat.</p>
+      
+    </div>
+    <span class="banner-go" aria-hidden="true">→</span>
+  </li>
   <li class="banner" data-search="business plan model: totals and break-evens are illustrative estimates starlink vs cellular: national telecom strategy for african markets a business plan for an african ministry comparing terrestrial cellular and starlink-based connectivity, with unit costs from public sources (itu, gsma, world bank, operator and starlink pricing) and an illustrative 10-year model for a 50-million-person country. it finds a hybrid cheapest: towers and fibre for dense areas, small cells with starlink backhaul below about 150 people per km², and household terminals only in the sparsest areas. sourced figures are cited and dated; the country, totals, crossovers and break-evens come from the illustrative model. interactive model leo satellite business plan financial government africa $8.5b hybrid 10-yr tco (illustrative) 150/km² tower vs satellite crossover 3 options: terrestrial, satellite-first, hybrid rural ppp break-even 2035 (with subsidy)">
     <div class="banner-meta">
       <time datetime="2026-11-03T20:00">Nov 3, 2026</time>
@@ -243,7 +310,7 @@
 <footer class="footer">
   <div class="container footer-inner">
     <span>Intel Bob Research Archive © 2026</span>
-    <span>Built Nov 3, 2026 20:51 PT</span>
+    <span>Built Nov 9, 2026 14:35 PT</span>
   </div>
 </footer>
 </body>

@@ -1,0 +1,312 @@
+[
+ {
+  "day": "2026-11-09",
+  "title": "Satellite Jobs Tracker — Monday, Nov 9, 2026",
+  "summary": "40 new postings (37 at Amazon Leo, 3 at Eutelsat Group), 37 closed, 1,394 open across 4 companies.",
+  "url": "jobs/2026-11-09/",
+  "companies": {
+   "AST SpaceMobile": {
+    "open": 271,
+    "new": 0,
+    "closed": 3
+   },
+   "Amazon Leo": {
+    "open": 995,
+    "new": 37,
+    "closed": 31
+   },
+   "Eutelsat Group (incl. OneWeb)": {
+    "open": 73,
+    "new": 3,
+    "closed": 3
+   },
+   "Telesat": {
+    "open": 55,
+    "new": 0,
+    "closed": 0
+   }
+  },
+  "csv": "jobs/files/open_jobs_2026-11-09.csv"
+ },
+ {
+  "day": "2026-11-06",
+  "title": "Satellite Jobs Tracker — Friday, Nov 6, 2026",
+  "summary": "25 new postings (24 at Amazon Leo, 1 at Eutelsat Group), 35 closed, 1,391 open across 4 companies.",
+  "url": "jobs/2026-11-06/",
+  "companies": {
+   "AST SpaceMobile": {
+    "open": 274,
+    "new": 0,
+    "closed": 4
+   },
+   "Amazon Leo": {
+    "open": 989,
+    "new": 24,
+    "closed": 27
+   },
+   "Eutelsat Group (incl. OneWeb)": {
+    "open": 73,
+    "new": 1,
+    "closed": 4
+   },
+   "Telesat": {
+    "open": 55,
+    "new": 0,
+    "closed": 0
+   }
+  },
+  "csv": "jobs/files/open_jobs_2026-11-06.csv"
+ },
+ {
+  "day": "2026-11-05",
+  "title": "Satellite Jobs Tracker — Thursday, Nov 5, 2026",
+  "summary": "34 new postings (30 at Amazon Leo, 2 at AST SpaceMobile, 2 at Telesat), 36 closed, 1,401 open across 4 companies.",
+  "url": "jobs/2026-11-05/",
+  "companies": {
+   "AST SpaceMobile": {
+    "open": 278,
+    "new": 2,
+    "closed": 4
+   },
+   "Amazon Leo": {
+    "open": 992,
+    "new": 30,
+    "closed": 30
+   },
+   "Eutelsat Group (incl. OneWeb)": {
+    "open": 76,
+    "new": 0,
+    "closed": 0
+   },
+   "Telesat": {
+    "open": 55,
+    "new": 2,
+    "closed": 2
+   }
+  },
+  "csv": "jobs/files/open_jobs_2026-11-05.csv"
+ },
+ {
+  "day": "2026-11-04",
+  "title": "Satellite Jobs Tracker — Wednesday, Nov 4, 2026",
+  "summary": "28 new postings (23 at Amazon Leo, 3 at AST SpaceMobile, 1 at Eutelsat Group, 1 at Telesat), 35 closed, 1,403 open across 4 companies.",
+  "url": "jobs/2026-11-04/",
+  "companies": {
+   "AST SpaceMobile": {
+    "open": 280,
+    "new": 3,
+    "closed": 5
+   },
+   "Amazon Leo": {
+    "open": 992,
+    "new": 23,
+    "closed": 30
+   },
+   "Eutelsat Group (incl. OneWeb)": {
+    "open": 76,
+    "new": 1,
+    "closed": 0
+   },
+   "Telesat": {
+    "open": 55,
+    "new": 1,
+    "closed": 0
+   }
+  },
+  "csv": "jobs/files/open_jobs_2026-11-04.csv"
+ },
+ {
+  "day": "2026-11-03",
+  "title": "Satellite Jobs Tracker — Tuesday, Nov 3, 2026",
+  "summary": "46 new postings (24 at Amazon Leo, 19 at AST SpaceMobile, 3 at Telesat), 29 closed, 1,410 open across 4 companies.",
+  "url": "jobs/2026-11-03/",
+  "companies": {
+   "AST SpaceMobile": {
+    "open": 282,
+    "new": 19,
+    "closed": 8
+   },
+   "Amazon Leo": {
+    "open": 999,
+    "new": 24,
+    "closed": 19
+   },
+   "Eutelsat Group (incl. OneWeb)": {
+    "open": 75,
+    "new": 0,
+    "closed": 1
+   },
+   "Telesat": {
+    "open": 54,
+    "new": 3,
+    "closed": 1
+   }
+  },
+  "csv": "jobs/files/open_jobs_2026-11-03.csv"
+ },
+ {
+  "day": "2026-11-02",
+  "title": "Satellite Jobs Tracker — Monday, Nov 2, 2026",
+  "summary": "22 new postings (17 at Amazon Leo, 4 at AST SpaceMobile, 1 at Telesat), 38 closed, 1,393 open across 4 companies.",
+  "url": "jobs/2026-11-02/",
+  "companies": {
+   "AST SpaceMobile": {
+    "open": 271,
+    "new": 4,
+    "closed": 7
+   },
+   "Amazon Leo": {
+    "open": 994,
+    "new": 17,
+    "closed": 29
+   },
+   "Eutelsat Group (incl. OneWeb)": {
+    "open": 76,
+    "new": 0,
+    "closed": 0
+   },
+   "Telesat": {
+    "open": 52,
+    "new": 1,
+    "closed": 2
+   }
+  },
+  "csv": "jobs/files/open_jobs_2026-11-02.csv"
+ },
+ {
+  "day": "2026-10-30",
+  "title": "Satellite Jobs Tracker — Friday, Oct 30, 2026",
+  "summary": "43 new postings (33 at Amazon Leo, 7 at AST SpaceMobile, 2 at Telesat, 1 at Eutelsat Group), 30 closed, 1,409 open across 4 companies.",
+  "url": "jobs/2026-10-30/",
+  "companies": {
+   "AST SpaceMobile": {
+    "open": 274,
+    "new": 7,
+    "closed": 1
+   },
+   "Amazon Leo": {
+    "open": 1006,
+    "new": 33,
+    "closed": 25
+   },
+   "Eutelsat Group (incl. OneWeb)": {
+    "open": 76,
+    "new": 1,
+    "closed": 2
+   },
+   "Telesat": {
+    "open": 53,
+    "new": 2,
+    "closed": 2
+   }
+  },
+  "csv": "jobs/files/open_jobs_2026-10-30.csv"
+ },
+ {
+  "day": "2026-10-29",
+  "title": "Satellite Jobs Tracker — Thursday, Oct 29, 2026",
+  "summary": "30 new postings (19 at Amazon Leo, 8 at Eutelsat Group, 3 at Telesat), 27 closed, 1,396 open across 4 companies.",
+  "url": "jobs/2026-10-29/",
+  "companies": {
+   "AST SpaceMobile": {
+    "open": 268,
+    "new": 0,
+    "closed": 3
+   },
+   "Amazon Leo": {
+    "open": 998,
+    "new": 19,
+    "closed": 24
+   },
+   "Eutelsat Group (incl. OneWeb)": {
+    "open": 77,
+    "new": 8,
+    "closed": 0
+   },
+   "Telesat": {
+    "open": 53,
+    "new": 3,
+    "closed": 0
+   }
+  },
+  "csv": "jobs/files/open_jobs_2026-10-29.csv"
+ },
+ {
+  "day": "2026-10-28",
+  "title": "Satellite Jobs Tracker — Wednesday, Oct 28, 2026",
+  "summary": "30 new postings (18 at Amazon Leo, 12 at Eutelsat Group), 18 closed, 1,393 open across 4 companies.",
+  "url": "jobs/2026-10-28/",
+  "companies": {
+   "AST SpaceMobile": {
+    "open": 271,
+    "new": 0,
+    "closed": 0,
+    "baseline": true
+   },
+   "Amazon Leo": {
+    "open": 1003,
+    "new": 18,
+    "closed": 15
+   },
+   "Eutelsat Group (incl. OneWeb)": {
+    "open": 69,
+    "new": 12,
+    "closed": 2
+   },
+   "Telesat": {
+    "open": 50,
+    "new": 0,
+    "closed": 1
+   }
+  },
+  "csv": "jobs/files/open_jobs_2026-10-28.csv"
+ },
+ {
+  "day": "2026-10-27",
+  "title": "Satellite Jobs Tracker — Tuesday, Oct 27, 2026",
+  "summary": "51 new postings (27 at Amazon Leo, 23 at Eutelsat Group, 1 at Telesat), 27 closed, 1,110 open across 3 companies.",
+  "url": "jobs/2026-10-27/",
+  "companies": {
+   "Amazon Leo": {
+    "open": 1000,
+    "new": 27,
+    "closed": 23
+   },
+   "Eutelsat Group (incl. OneWeb)": {
+    "open": 59,
+    "new": 23,
+    "closed": 1
+   },
+   "Telesat": {
+    "open": 51,
+    "new": 1,
+    "closed": 3
+   }
+  },
+  "csv": "jobs/files/open_jobs_2026-10-27.csv"
+ },
+ {
+  "day": "2026-10-26",
+  "title": "Satellite Jobs Tracker — Monday, Oct 26, 2026",
+  "summary": "0 new postings (none), 5 closed, 1,086 open across 3 companies.",
+  "url": "jobs/2026-10-26/",
+  "companies": {
+   "Amazon Leo": {
+    "open": 996,
+    "new": 0,
+    "closed": 5
+   },
+   "Eutelsat Group (incl. OneWeb)": {
+    "open": 37,
+    "new": 0,
+    "closed": 0
+   },
+   "Telesat": {
+    "open": 53,
+    "new": 0,
+    "closed": 0
+   }
+  },
+  "csv": "jobs/files/open_jobs_2026-10-26.csv"
+ }
+]

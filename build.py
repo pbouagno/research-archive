@@ -16,6 +16,12 @@ import mammoth
 
 import v2
 
+try:  # daily feeds (Daily Briefings + Satellite Jobs Tracker); optional, never breaks the projects build
+    import briefings_site
+except Exception as _e:  # pragma: no cover
+    briefings_site = None
+    print(f"!! daily feeds disabled: {_e}", file=sys.stderr)
+
 ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "src"
 DIST = ROOT / "dist"
@@ -63,12 +69,14 @@ def page(title, body, depth=0, desc=""):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="stylesheet" href="{pre}assets/style.css">
+<link rel="stylesheet" href="{pre}assets/briefings.css">
 <script>(function(){{try{{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t;}}catch(e){{}}}})();</script>
 </head>
 <body>
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="{pre}index.html"><span class="logo" aria-hidden="true">◉</span> Intel Bob Research Archive</a>
+    <nav class="site-nav" aria-label="Sections"><a href="{pre}index.html">Research</a><a href="{pre}briefings/index.html">Daily Briefings</a><a href="{pre}jobs/index.html">Satellite Jobs</a><a href="{pre}v2/index.html">Minimal view</a></nav>
     <button class="theme-toggle" type="button" aria-label="Toggle light or dark theme" title="Toggle theme">◐</button>
   </div>
 </header>
@@ -297,6 +305,14 @@ def build():
     data = {"title": manifest["site_title"], "subtitle": manifest.get("site_subtitle", ""), "projects": cards}
     (DIST / "projects.json").write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     all_tags = sorted({t for c in cards for t in c["tags"]})
+    feeds, feeds_classic, feeds_v2 = None, "", ""
+    if briefings_site:
+        try:
+            feeds = briefings_site.load()
+            feeds_classic = briefings_site.home_strip(feeds, "classic")
+            feeds_v2 = briefings_site.home_strip(feeds, "v2")
+        except Exception as e:
+            print(f"!! daily feeds: could not load: {e}", file=sys.stderr)
     noscript = "".join(f'<li><a href="{esc(c["url"])}">{esc(c["title"])}</a> ({c["date_label"]})</li>' for c in sorted(cards, key=lambda c: c["date"], reverse=True))
     index_body = f"""
 <main class="wrap">
@@ -304,6 +320,7 @@ def build():
     <h1>{esc(manifest['site_title'])}</h1>
     <p>{esc(manifest.get('site_subtitle',''))}</p>
   </section>
+  {feeds_classic}
   <section class="controls" aria-label="Search and filter">
     <input id="q" type="search" placeholder="Search titles, summaries, stats…" aria-label="Search projects" autocomplete="off">
     <button id="sort" type="button" class="btn" aria-label="Toggle sort order">Newest first ↓</button>
@@ -316,7 +333,13 @@ def build():
 <script src="assets/app.js"></script>"""
     (DIST / "index.html").write_text(page(manifest["site_title"], index_body, depth=0, desc=manifest.get("site_subtitle", "")), encoding="utf-8")
 
-    (DIST / "v2" / "index.html").write_text(v2.index(manifest, cards), encoding="utf-8")
+    (DIST / "v2" / "index.html").write_text(v2.index(manifest, cards, feeds_html=feeds_v2), encoding="utf-8")
+    if briefings_site and feeds is not None:
+        try:
+            briefings_site.build(DIST, lambda t, b, d, desc="": page(t, b, depth=d, desc=desc), v2.page, feeds)
+        except Exception as e:
+            import traceback; traceback.print_exc()
+            print(f"!! daily feeds build failed (projects site is unaffected): {e}", file=sys.stderr)
     (DIST / ".nojekyll").write_text("", encoding="utf-8")  # GitHub Pages: serve files as-is, no Jekyll
 
     print(f"Built {len(cards)} projects (classic view at /, v2 view at /v2/) into {DIST} ({len(all_tags)} tags)")

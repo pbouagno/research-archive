@@ -241,7 +241,10 @@
       ],
       "doc": "AST_Rakuten_Japan_Deal_Analysis.docx",
       "related_files": [],
-      "short_summary": "The ~$1B J-LEO figure is a government grant ceiling of up to ¥148bn to the Rakuten–AST joint venture, not a purchase price, and no official satellite count exists."
+      "short_summary": "The ~$1B J-LEO figure is a government grant ceiling of up to ¥148bn to the Rakuten–AST joint venture, not a purchase price, and no official satellite count exists.",
+      "related_projects": [
+        "japan-jleo-program-analysis"
+      ]
     },
     {
       "slug": "federated-sovereign-starlink-white-paper",
@@ -1173,6 +1176,117 @@
           "href": "https://www.reuters.com/world/africa/musks-starlink-denied-namibia-licence-ownership-compliance-reasons-2026-03-25/"
         }
       ]
+    },
+    {
+      "slug": "korea-mnd-space-strategy-analysis",
+      "title": "South Korea’s Defense Space Strategy & Military Space Architecture",
+      "date": "2026-11-07T14:01",
+      "tags": [
+        "Defense",
+        "Government",
+        "LEO Satellite",
+        "Strategy"
+      ],
+      "summary": "An analysis of South Korea’s Ministry of National Defense space strategy and military space architecture as of early November 2026. It covers Project 425’s completed 1 EO/IR + 4 SAR constellation, the KRW 1.4223 trillion microsatellite system (2022–2030), the satcom gap around ANASIS-II and its 2031–32 replacement, a March 2026 LEO satcom task force studying 128–512 satellites by about 2035, plus PNT, missile warning, SDA, launch and industrial-base roles. A 14-row program table ties each effort to contractors and sourced timelines.",
+      "stats": [
+        "8 pages",
+        "54 references",
+        "14-row program table"
+      ],
+      "doc": "Korea_MND_Space_Strategy_Analysis.docx",
+      "related_files": [],
+      "related_projects": [],
+      "short_summary": "Korea’s defense space architecture: Project 425 complete, microsatellites next, and military satcom still the main gap for LEO players."
+    },
+    {
+      "slug": "starlink-community-gateway-emerging-markets",
+      "title": "Starlink Gateways and the Starlink Community Gateway for Emerging Markets",
+      "date": "2026-11-07T14:01",
+      "tags": [
+        "LEO Satellite",
+        "Market Analysis",
+        "Strategy",
+        "Pricing"
+      ],
+      "summary": "A deep dive into Starlink’s ground segment and the Community Gateway product for emerging-market use. It distinguishes SpaceX-owned standard gateways from the partner-operated Community Gateway (four 2.1 m dishes on a 12×12 m pad, advertised up to 20 Gbps / <90 ms), covers 20 sites in nine countries by end-2025, launch pricing reported at $1.25M upfront plus $75k per Gbps per month, and assesses island transit, cellular backhaul, disaster recovery and regulatory constraints versus Amazon Leo, SES O3b mPOWER and others.",
+      "stats": [
+        "12 pages",
+        "66 references",
+        "4 tables"
+      ],
+      "doc": "Starlink_Community_Gateway_Emerging_Markets.docx",
+      "related_files": [],
+      "related_projects": [],
+      "short_summary": "What the Starlink Community Gateway is, what it costs, where it is deployed, and where it fits emerging-market backhaul and transit use cases."
+    },
+    {
+      "slug": "satcom-resellers-analysis",
+      "title": "Satellite Communications Resellers & Integrators across Starlink, OneWeb, Viasat and SES",
+      "date": "2026-11-07T14:01",
+      "tags": [
+        "LEO Satellite",
+        "Market Analysis",
+        "Financial",
+        "Eutelsat OneWeb"
+      ],
+      "summary": "Profiles of 13 satcom resellers and integrators spanning Starlink, Eutelsat OneWeb, Viasat/Inmarsat and SES/Intelsat channels: Marlink, Speedcast, KVH, Gogo (incl. Satcom Direct), Panasonic Avionics, Hughes, Navarino, Network Innovations, Tampnet, Space Norway, Nelco, Telstra and Kymeta. It covers ownership, financials where public, sector focus (maritime, aviation, enterprise, government) and documented operator relationships, and notes Starlink’s May 2026 freeze on new reseller applications.",
+      "stats": [
+        "14 pages",
+        "83 references",
+        "13 companies"
+      ],
+      "doc": "Satcom_Resellers_Analysis.docx",
+      "related_files": [],
+      "related_projects": [],
+      "short_summary": "Financials, sectors and capabilities of 13 top satcom resellers across Starlink, OneWeb, Viasat/Inmarsat and SES/Intelsat."
+    },
+    {
+      "slug": "japan-jleo-program-analysis",
+      "title": "Japan’s J-LEO Program and the CIAJ Solicitation",
+      "date": "2026-11-09T10:39",
+      "tags": [
+        "Japan",
+        "Direct-to-Device",
+        "Government",
+        "LEO Satellite"
+      ],
+      "summary": "A deep dive into MIC’s Japan Low Earth Orbit Satellite Communications Project (J-LEO) and the CIAJ call that awarded it. The program subsidizes up to half the cost of a domestically controlled direct-to-smartphone LEO system, capped at ¥148.0bn over three fiscal years from a ¥150bn FY2025 supplementary allocation, with nationwide service required by end-March 2029. CIAJ’s Mar 30–May 29, 2026 call selected RAST with Rakuten Mobile on Jun 30, 2026; company statements describe ~40–50 AST satellites on Rakuten’s 1.7 GHz spectrum. Covers mandatory conditions, governance, players, and comparisons with IRIS² and Korea’s LEO plans.",
+      "stats": [
+        "10 pages",
+        "49 references",
+        "7 tables"
+      ],
+      "doc": "Japan_JLEO_Program_Analysis.docx",
+      "related_files": [],
+      "related_projects": [
+        "ast-rakuten-japan-deal-analysis"
+      ],
+      "short_summary": "MIC’s J-LEO subsidy (up to ¥148bn) and the CIAJ call that selected Rakuten/RAST for a Japan-controlled direct-to-device LEO system by 2029."
+    },
+    {
+      "slug": "iris2-satcombw4-cost-timeline-evolution",
+      "title": "IRIS² and SATCOMBw Stage 4: How Cost and Schedule Have Evolved",
+      "date": "2026-11-09T12:10",
+      "tags": [
+        "IRIS²",
+        "Europe",
+        "Defense",
+        "Government",
+        "LEO Satellite"
+      ],
+      "summary": "A dated history of how cost estimates and deployment targets changed for the EU’s IRIS² secure-connectivity constellation and Germany’s SATCOMBw Stage 4 LEO programme. IRIS² rose from about €6bn in the 2022 proposal to €10.6bn at the Dec 2024 contract and beyond €15.6bn after the Aug 2026 addition of 66 military satellites (348 total), while first service slipped from 2024/2027 to progressive services from 2029 and commercial service by mid-2032. SATCOMBw Stage 4 has no official price (press: €8–10bn+), targets IOC around 2029, and its classified tender award has slipped from end-2026 toward 2027.",
+      "stats": [
+        "10 pages",
+        "51 references",
+        "6 tables",
+        "3 charts"
+      ],
+      "doc": "IRIS2_SATCOMBw4_Cost_Timeline_Evolution.docx",
+      "related_files": [],
+      "related_projects": [
+        "ast-spacemobile-iris2-pdf-spec-links"
+      ],
+      "short_summary": "How IRIS² costs roughly 2.6× the 2022 estimate with service five–six years later, and how SATCOMBw Stage 4’s award is slipping into 2027."
     }
   ]
 }
