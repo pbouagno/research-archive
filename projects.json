@@ -1195,7 +1195,9 @@
       ],
       "doc": "Korea_MND_Space_Strategy_Analysis.docx",
       "related_files": [],
-      "related_projects": [],
+      "related_projects": [
+        "gov-satcom-tenders-rfp-europe-asia"
+      ],
       "short_summary": "Korea’s defense space architecture: Project 425 complete, microsatellites next, and military satcom still the main gap for LEO players."
     },
     {
@@ -1259,7 +1261,8 @@
       "doc": "Japan_JLEO_Program_Analysis.docx",
       "related_files": [],
       "related_projects": [
-        "ast-rakuten-japan-deal-analysis"
+        "ast-rakuten-japan-deal-analysis",
+        "gov-satcom-tenders-rfp-europe-asia"
       ],
       "short_summary": "MIC’s J-LEO subsidy (up to ¥148bn) and the CIAJ call that selected Rakuten/RAST for a Japan-controlled direct-to-device LEO system by 2029."
     },
@@ -1284,9 +1287,37 @@
       "doc": "IRIS2_SATCOMBw4_Cost_Timeline_Evolution.docx",
       "related_files": [],
       "related_projects": [
-        "ast-spacemobile-iris2-pdf-spec-links"
+        "ast-spacemobile-iris2-pdf-spec-links",
+        "gov-satcom-tenders-rfp-europe-asia"
       ],
       "short_summary": "How IRIS² costs roughly 2.6× the 2022 estimate with service five–six years later, and how SATCOMBw Stage 4’s award is slipping into 2027."
+    },
+    {
+      "slug": "gov-satcom-tenders-rfp-europe-asia",
+      "title": "Government Satcom Programmes, Tenders and RFP Portals to Track: Europe and Asia-Pacific",
+      "date": "2026-11-12T23:23",
+      "tags": [
+        "Government",
+        "Defense",
+        "Europe",
+        "LEO Satellite"
+      ],
+      "summary": "A guide to official government and defence procurement portals and to ongoing and upcoming sovereign and military satcom programmes in Europe and Asia-Pacific, as of November 12, 2026. It lists 70 official RFP portals (EU/NATO, national European, Asia-Pacific and multilateral, each curl-checked), 45 programmes, and a 24-row watchlist sorted by next milestone. Near-term closings include NCIA’s Augmentation SATCOM Services (Nov 16 and 23, 2026) and Australia’s JP9102 follow-ons; the large European decisions still ahead are Germany’s SATCOMBw Stage 4 award and IRIS² sub-tier work on the ground segment and Low-LEO layer. Asia-Pacific coverage includes Japan’s awarded J-LEO and Mitsubishi Electric X-band follow-on, and Korea’s military satcom plans.",
+      "stats": [
+        "12 pages",
+        "83 references",
+        "70 portals",
+        "45 programmes",
+        "24-row watchlist"
+      ],
+      "doc": "Gov_Satcom_Tenders_RFP_Sites_Europe_Asia.docx",
+      "related_files": [],
+      "related_projects": [
+        "japan-jleo-program-analysis",
+        "iris2-satcombw4-cost-timeline-evolution",
+        "korea-mnd-space-strategy-analysis"
+      ],
+      "short_summary": "Official RFP portals and a dated watchlist of government satcom tenders and programmes across Europe and Asia-Pacific, with near-term NATO, EDA and Australia closings flagged."
     }
   ]
 }
