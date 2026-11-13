@@ -1585,7 +1585,8 @@
       "related_files": [],
       "related_projects": [
         "ast-spacemobile-iris2-pdf-spec-links",
-        "gov-satcom-tenders-rfp-europe-asia"
+        "gov-satcom-tenders-rfp-europe-asia",
+        "civil-gov-satcom-tenders-rfp-sites"
       ],
       "short_summary": "How IRIS² costs roughly 2.6× the 2022 estimate with service five–six years later, and how SATCOMBw Stage 4’s award is slipping into 2027.",
       "url": "projects/iris2-satcombw4-cost-timeline-evolution/index.html",
@@ -1605,6 +1606,10 @@
         {
           "slug": "gov-satcom-tenders-rfp-europe-asia",
           "title": "Government Satcom Programmes, Tenders and RFP Portals to Track: Europe and Asia-Pacific"
+        },
+        {
+          "slug": "civil-gov-satcom-tenders-rfp-sites",
+          "title": "Civil and Federal Government Satcom Programmes, Tenders and RFP Portals to Track: Europe and Asia-Pacific (with notable programmes elsewhere)"
         }
       ],
       "date_label": "Nov 9, 2026",
@@ -1634,7 +1639,8 @@
       "related_projects": [
         "japan-jleo-program-analysis",
         "iris2-satcombw4-cost-timeline-evolution",
-        "korea-mnd-space-strategy-analysis"
+        "korea-mnd-space-strategy-analysis",
+        "civil-gov-satcom-tenders-rfp-sites"
       ],
       "short_summary": "Official RFP portals and a dated watchlist of government satcom tenders and programmes across Europe and Asia-Pacific, with near-term NATO, EDA and Australia closings flagged.",
       "url": "projects/gov-satcom-tenders-rfp-europe-asia/index.html",
@@ -1658,10 +1664,61 @@
         {
           "slug": "korea-mnd-space-strategy-analysis",
           "title": "South Korea’s Defense Space Strategy & Military Space Architecture"
+        },
+        {
+          "slug": "civil-gov-satcom-tenders-rfp-sites",
+          "title": "Civil and Federal Government Satcom Programmes, Tenders and RFP Portals to Track: Europe and Asia-Pacific (with notable programmes elsewhere)"
         }
       ],
       "date_label": "Nov 12, 2026",
       "links_found": 151,
+      "images": 0
+    },
+    {
+      "slug": "civil-gov-satcom-tenders-rfp-sites",
+      "title": "Civil and Federal Government Satcom Programmes, Tenders and RFP Portals to Track: Europe and Asia-Pacific (with notable programmes elsewhere)",
+      "date": "2026-11-13T12:26",
+      "tags": [
+        "Government",
+        "Europe",
+        "LEO Satellite"
+      ],
+      "summary": "A companion to the defence-focused tenders report, covering civil and federal government satcom programmes, tenders and official procurement portals as of November 13, 2026. It focuses on emergency services and blue-light networks, civil protection, digital resilience, public warning, maritime and aviation safety, border and coastguard, and rural or universal-service connectivity. Section 1 lists 95 official civil portals (EU, national European, Asia-Pacific, plus other regions and multilateral, each curl-checked), with Europe and Asia-Pacific programmes in depth and shorter notes on the US, Canada, Brazil, Saudi Arabia and Kenya (South Africa appears as a portal). Near-term closings include BEREC Office crisis-communication devices (Nov 19, 2026), Lithuania State Border Guard satcom (Dec 3) and an Estonian Starlink framework (Dec 14). The EU’s proposed EUCCS would use IRIS² and GOVSATCOM as back-up for first responders from 2030.",
+      "stats": [
+        "13 pages",
+        "85 references",
+        "95 portals",
+        "50 programmes",
+        "24-row watchlist"
+      ],
+      "doc": "Civil_Gov_Satcom_Tenders_RFP_Sites.docx",
+      "related_files": [],
+      "related_projects": [
+        "gov-satcom-tenders-rfp-europe-asia",
+        "iris2-satcombw4-cost-timeline-evolution"
+      ],
+      "short_summary": "Civil satcom RFP portals and a dated watchlist for emergency services, blue-light networks and digital resilience, with Europe and Asia-Pacific in depth plus notable programmes in the US, Canada, Brazil, Saudi Arabia and Kenya.",
+      "url": "projects/civil-gov-satcom-tenders-rfp-sites/index.html",
+      "downloads": [
+        {
+          "name": "Civil_Gov_Satcom_Tenders_RFP_Sites.docx",
+          "href": "files/Civil_Gov_Satcom_Tenders_RFP_Sites.docx",
+          "size": "73.7 KB",
+          "ext": "DOCX"
+        }
+      ],
+      "related_titles": [
+        {
+          "slug": "gov-satcom-tenders-rfp-europe-asia",
+          "title": "Government Satcom Programmes, Tenders and RFP Portals to Track: Europe and Asia-Pacific"
+        },
+        {
+          "slug": "iris2-satcombw4-cost-timeline-evolution",
+          "title": "IRIS² and SATCOMBw Stage 4: How Cost and Schedule Have Evolved"
+        }
+      ],
+      "date_label": "Nov 13, 2026",
+      "links_found": 172,
       "images": 0
     }
   ]
