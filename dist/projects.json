@@ -116,6 +116,9 @@
       "doc": "LEO_Satcom_Civil_Gov_Business_Plan.docx",
       "related_files": [],
       "short_summary": "A plan for a multi-orbit managed satcom integrator selling non-military connectivity to civil government agencies through verified contract vehicles.",
+      "related_projects": [
+        "ict-ministries-connectivity-programs"
+      ],
       "url": "projects/leo-satcom-civil-gov-business-plan/index.html",
       "downloads": [
         {
@@ -125,7 +128,12 @@
           "ext": "DOCX"
         }
       ],
-      "related_titles": [],
+      "related_titles": [
+        {
+          "slug": "ict-ministries-connectivity-programs",
+          "title": "Affordable Internet and Digital Connectivity Programmes of National ICT Ministries: Who Runs Them, What They Fund, and How They Are Performing"
+        }
+      ],
       "date_label": "Oct 26, 2026",
       "links_found": 44,
       "images": 1
@@ -1695,7 +1703,8 @@
       "related_files": [],
       "related_projects": [
         "gov-satcom-tenders-rfp-europe-asia",
-        "iris2-satcombw4-cost-timeline-evolution"
+        "iris2-satcombw4-cost-timeline-evolution",
+        "ict-ministries-connectivity-programs"
       ],
       "short_summary": "Civil satcom RFP portals and a dated watchlist for emergency services, blue-light networks and digital resilience, with Europe and Asia-Pacific in depth plus notable programmes in the US, Canada, Brazil, Saudi Arabia and Kenya.",
       "url": "projects/civil-gov-satcom-tenders-rfp-sites/index.html",
@@ -1715,11 +1724,61 @@
         {
           "slug": "iris2-satcombw4-cost-timeline-evolution",
           "title": "IRIS² and SATCOMBw Stage 4: How Cost and Schedule Have Evolved"
+        },
+        {
+          "slug": "ict-ministries-connectivity-programs",
+          "title": "Affordable Internet and Digital Connectivity Programmes of National ICT Ministries: Who Runs Them, What They Fund, and How They Are Performing"
         }
       ],
       "date_label": "Nov 13, 2026",
       "links_found": 172,
       "images": 0
+    },
+    {
+      "slug": "ict-ministries-connectivity-programs",
+      "title": "Affordable Internet and Digital Connectivity Programmes of National ICT Ministries: Who Runs Them, What They Fund, and How They Are Performing",
+      "date": "2026-11-13T18:05",
+      "tags": [
+        "Government",
+        "LEO Satellite",
+        "Strategy"
+      ],
+      "summary": "A survey of national ICT ministries, regulators and universal service funds as of November 13, 2026, covering 55 countries plus the EU. It maps who runs connectivity policy and rates 44 programmes against their own targets, then analyses affordability and the coverage-versus-usage gap, USF collection versus disbursement, and implications for satellite and LEO operators. It finds the remaining gap is mostly usage and affordability rather than coverage (ITU: 6.3 billion online, 2 billion offline); idle USF balances are a common failure mode; and satellite is moving into mainstream USF tools (US BEAD, school connectivity in Argentina, Paraguay and Fiji), while licensing remains the gate in large Asian markets.",
+      "stats": [
+        "13 pages",
+        "103 references",
+        "55 countries + EU",
+        "44 programmes"
+      ],
+      "doc": "ICT_Ministries_Connectivity_Programs.docx",
+      "related_files": [],
+      "related_projects": [
+        "civil-gov-satcom-tenders-rfp-sites",
+        "leo-satcom-civil-gov-business-plan"
+      ],
+      "short_summary": "Who runs national affordable-internet and digital-connectivity programmes, how 44 of them are performing, and what that means for satellite and LEO operators.",
+      "url": "projects/ict-ministries-connectivity-programs/index.html",
+      "downloads": [
+        {
+          "name": "ICT_Ministries_Connectivity_Programs.docx",
+          "href": "files/ICT_Ministries_Connectivity_Programs.docx",
+          "size": "193.7 KB",
+          "ext": "DOCX"
+        }
+      ],
+      "related_titles": [
+        {
+          "slug": "civil-gov-satcom-tenders-rfp-sites",
+          "title": "Civil and Federal Government Satcom Programmes, Tenders and RFP Portals to Track: Europe and Asia-Pacific (with notable programmes elsewhere)"
+        },
+        {
+          "slug": "leo-satcom-civil-gov-business-plan",
+          "title": "Business Plan: LEO Satcom Managed Services for Civil Government"
+        }
+      ],
+      "date_label": "Nov 13, 2026",
+      "links_found": 159,
+      "images": 1
     }
   ]
 }
