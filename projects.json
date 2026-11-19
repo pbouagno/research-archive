@@ -20,7 +20,10 @@
       ],
       "doc": "LEO_Satellite_Comms_Report.docx",
       "related_files": [],
-      "short_summary": "Compares specifications and pricing for Starlink, Amazon Leo, Telesat Lightspeed, Eutelsat OneWeb and Viasat across consumer, enterprise and government segments."
+      "short_summary": "Compares specifications and pricing for Starlink, Amazon Leo, Telesat Lightspeed, Eutelsat OneWeb and Viasat across consumer, enterprise and government segments.",
+      "related_projects": [
+        "launch-vehicle-success-rates-2026"
+      ]
     },
     {
       "slug": "amazon-leo-pdf-spec-links",
@@ -39,7 +42,10 @@
       ],
       "doc": "Amazon_Leo_PDF_Spec_Links.docx",
       "related_files": [],
-      "short_summary": "68 verified public PDF and filing links with technical specifications for Amazon Leo, from FCC and ITU filings to terminal authorizations."
+      "short_summary": "68 verified public PDF and filing links with technical specifications for Amazon Leo, from FCC and ITU filings to terminal authorizations.",
+      "related_projects": [
+        "launch-vehicle-success-rates-2026"
+      ]
     },
     {
       "slug": "telesat-oneweb-pdf-spec-links",
@@ -1292,7 +1298,8 @@
       "related_projects": [
         "ast-spacemobile-iris2-pdf-spec-links",
         "gov-satcom-tenders-rfp-europe-asia",
-        "civil-gov-satcom-tenders-rfp-sites"
+        "civil-gov-satcom-tenders-rfp-sites",
+        "launch-vehicle-success-rates-2026"
       ],
       "short_summary": "How IRIS² costs roughly 2.6× the 2022 estimate with service five–six years later, and how SATCOMBw Stage 4’s award is slipping into 2027."
     },
@@ -1373,6 +1380,31 @@
         "leo-satcom-civil-gov-business-plan"
       ],
       "short_summary": "Who runs national affordable-internet and digital-connectivity programmes, how 44 of them are performing, and what that means for satellite and LEO operators."
+    },
+    {
+      "slug": "launch-vehicle-success-rates-2026",
+      "title": "Global Orbital Launch Vehicle Success Rates, 2025–2026",
+      "date": "2026-11-17T15:38",
+      "tags": [
+        "LEO Satellite",
+        "Market Analysis"
+      ],
+      "summary": "A review of global orbital launch-vehicle success rates and recent anomalies through 15 November 2026, including that day's ULA Vulcan VC6L failure that lost the first Amazon Leo mission (40 satellites). Using J. McDowell’s GCAT launch list, it rates 78 vehicle families, gives last-20 flight tables for 28 vehicles, and logs 34 anomalies from November 2024 to 15 November 2026. It finds the non-SpaceX success rate has not worsened (93.7% in 2025, 94.4% in 2026 to date) but failures have shifted toward new and some established vehicles (Vulcan, H3, PSLV, New Glenn); early flights remain the risky period; and Amazon Leo is the most exposed major constellation, with Vulcan and New Glenn both grounded.",
+      "stats": [
+        "19 pages",
+        "117 references",
+        "78 vehicle families",
+        "34 anomalies",
+        "4 charts"
+      ],
+      "doc": "Launch_Vehicle_Success_Rates_2026.docx",
+      "related_files": [],
+      "related_projects": [
+        "amazon-leo-pdf-spec-links",
+        "iris2-satcombw4-cost-timeline-evolution",
+        "leo-satellite-comms-report"
+      ],
+      "short_summary": "Orbital launch success rates and a 34-anomaly log through the 15 Nov 2026 Vulcan failure that lost Amazon Leo’s first dedicated mission, with last-20 records for 28 vehicles."
     }
   ]
 }
