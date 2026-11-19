@@ -22,7 +22,8 @@
       "related_files": [],
       "short_summary": "Compares specifications and pricing for Starlink, Amazon Leo, Telesat Lightspeed, Eutelsat OneWeb and Viasat across consumer, enterprise and government segments.",
       "related_projects": [
-        "launch-vehicle-success-rates-2026"
+        "launch-vehicle-success-rates-2026",
+        "starlink-government-premium-features"
       ]
     },
     {
@@ -44,7 +45,8 @@
       "related_files": [],
       "short_summary": "68 verified public PDF and filing links with technical specifications for Amazon Leo, from FCC and ITU filings to terminal authorizations.",
       "related_projects": [
-        "launch-vehicle-success-rates-2026"
+        "launch-vehicle-success-rates-2026",
+        "starlink-government-premium-features"
       ]
     },
     {
@@ -1327,7 +1329,8 @@
         "japan-jleo-program-analysis",
         "iris2-satcombw4-cost-timeline-evolution",
         "korea-mnd-space-strategy-analysis",
-        "civil-gov-satcom-tenders-rfp-sites"
+        "civil-gov-satcom-tenders-rfp-sites",
+        "starlink-government-premium-features"
       ],
       "short_summary": "Official RFP portals and a dated watchlist of government satcom tenders and programmes across Europe and Asia-Pacific, with near-term NATO, EDA and Australia closings flagged."
     },
@@ -1353,7 +1356,8 @@
       "related_projects": [
         "gov-satcom-tenders-rfp-europe-asia",
         "iris2-satcombw4-cost-timeline-evolution",
-        "ict-ministries-connectivity-programs"
+        "ict-ministries-connectivity-programs",
+        "starlink-government-premium-features"
       ],
       "short_summary": "Civil satcom RFP portals and a dated watchlist for emergency services, blue-light networks and digital resilience, with Europe and Asia-Pacific in depth plus notable programmes in the US, Canada, Brazil, Saudi Arabia and Kenya."
     },
@@ -1405,6 +1409,34 @@
         "leo-satellite-comms-report"
       ],
       "short_summary": "Orbital launch success rates and a 34-anomaly log through the 15 Nov 2026 Vulcan failure that lost Amazon Leo’s first dedicated mission, with last-20 records for 28 vehicles."
+    },
+    {
+      "slug": "starlink-government-premium-features",
+      "title": "Augmented Starlink Features for Government Use Cases",
+      "date": "2026-11-18T18:26",
+      "tags": [
+        "Starlink",
+        "Government",
+        "Public Safety",
+        "Emergency Response",
+        "Resilience"
+      ],
+      "summary": "A catalogue of 24 candidate premium Starlink features for federal and civil government use — public safety, emergency response, digital resilience and continuity of government — each scored for demand, willingness to pay and feasibility, with a value-versus-feasibility matrix and a prioritised roadmap. It sets out today’s Starlink/Starshield government baseline and buyer pain points (contractual and governance gaps such as priority, restoration and outage reporting), then benchmarks proposed premiums against OneWeb, Amazon Leo, SES, Viasat/Inmarsat, Iridium, Telesat, IRIS², AST/FirstNet and others. Sections 1–2 are sourced fact; sections 3–5 are labelled analysis and recommendations, not SpaceX products.",
+      "stats": [
+        "13 pages",
+        "108 references",
+        "24 features",
+        "2 charts"
+      ],
+      "doc": "Starlink_Government_Premium_Features.docx",
+      "related_files": [],
+      "related_projects": [
+        "civil-gov-satcom-tenders-rfp-sites",
+        "gov-satcom-tenders-rfp-europe-asia",
+        "amazon-leo-pdf-spec-links",
+        "leo-satellite-comms-report"
+      ],
+      "short_summary": "24 candidate Starlink premium features for civil and federal government, scored for demand, willingness to pay and feasibility, with a prioritised roadmap. Sections 1–2 are sourced fact; sections 3–5 are analysis."
     }
   ]
 }

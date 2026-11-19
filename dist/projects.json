@@ -21,7 +21,8 @@
       "related_files": [],
       "short_summary": "Compares specifications and pricing for Starlink, Amazon Leo, Telesat Lightspeed, Eutelsat OneWeb and Viasat across consumer, enterprise and government segments.",
       "related_projects": [
-        "launch-vehicle-success-rates-2026"
+        "launch-vehicle-success-rates-2026",
+        "starlink-government-premium-features"
       ],
       "url": "projects/leo-satellite-comms-report/index.html",
       "downloads": [
@@ -36,6 +37,10 @@
         {
           "slug": "launch-vehicle-success-rates-2026",
           "title": "Global Orbital Launch Vehicle Success Rates, 2025–2026"
+        },
+        {
+          "slug": "starlink-government-premium-features",
+          "title": "Augmented Starlink Features for Government Use Cases"
         }
       ],
       "date_label": "Oct 25, 2026",
@@ -61,7 +66,8 @@
       "related_files": [],
       "short_summary": "68 verified public PDF and filing links with technical specifications for Amazon Leo, from FCC and ITU filings to terminal authorizations.",
       "related_projects": [
-        "launch-vehicle-success-rates-2026"
+        "launch-vehicle-success-rates-2026",
+        "starlink-government-premium-features"
       ],
       "url": "projects/amazon-leo-pdf-spec-links/index.html",
       "downloads": [
@@ -76,6 +82,10 @@
         {
           "slug": "launch-vehicle-success-rates-2026",
           "title": "Global Orbital Launch Vehicle Success Rates, 2025–2026"
+        },
+        {
+          "slug": "starlink-government-premium-features",
+          "title": "Augmented Starlink Features for Government Use Cases"
         }
       ],
       "date_label": "Oct 25, 2026",
@@ -1669,7 +1679,8 @@
         "japan-jleo-program-analysis",
         "iris2-satcombw4-cost-timeline-evolution",
         "korea-mnd-space-strategy-analysis",
-        "civil-gov-satcom-tenders-rfp-sites"
+        "civil-gov-satcom-tenders-rfp-sites",
+        "starlink-government-premium-features"
       ],
       "short_summary": "Official RFP portals and a dated watchlist of government satcom tenders and programmes across Europe and Asia-Pacific, with near-term NATO, EDA and Australia closings flagged.",
       "url": "projects/gov-satcom-tenders-rfp-europe-asia/index.html",
@@ -1697,6 +1708,10 @@
         {
           "slug": "civil-gov-satcom-tenders-rfp-sites",
           "title": "Civil and Federal Government Satcom Programmes, Tenders and RFP Portals to Track: Europe and Asia-Pacific (with notable programmes elsewhere)"
+        },
+        {
+          "slug": "starlink-government-premium-features",
+          "title": "Augmented Starlink Features for Government Use Cases"
         }
       ],
       "date_label": "Nov 12, 2026",
@@ -1725,7 +1740,8 @@
       "related_projects": [
         "gov-satcom-tenders-rfp-europe-asia",
         "iris2-satcombw4-cost-timeline-evolution",
-        "ict-ministries-connectivity-programs"
+        "ict-ministries-connectivity-programs",
+        "starlink-government-premium-features"
       ],
       "short_summary": "Civil satcom RFP portals and a dated watchlist for emergency services, blue-light networks and digital resilience, with Europe and Asia-Pacific in depth plus notable programmes in the US, Canada, Brazil, Saudi Arabia and Kenya.",
       "url": "projects/civil-gov-satcom-tenders-rfp-sites/index.html",
@@ -1749,6 +1765,10 @@
         {
           "slug": "ict-ministries-connectivity-programs",
           "title": "Affordable Internet and Digital Connectivity Programmes of National ICT Ministries: Who Runs Them, What They Fund, and How They Are Performing"
+        },
+        {
+          "slug": "starlink-government-premium-features",
+          "title": "Augmented Starlink Features for Government Use Cases"
         }
       ],
       "date_label": "Nov 13, 2026",
@@ -1851,6 +1871,64 @@
       "date_label": "Nov 17, 2026",
       "links_found": 117,
       "images": 4
+    },
+    {
+      "slug": "starlink-government-premium-features",
+      "title": "Augmented Starlink Features for Government Use Cases",
+      "date": "2026-11-18T18:26",
+      "tags": [
+        "Starlink",
+        "Government",
+        "Public Safety",
+        "Emergency Response",
+        "Resilience"
+      ],
+      "summary": "A catalogue of 24 candidate premium Starlink features for federal and civil government use — public safety, emergency response, digital resilience and continuity of government — each scored for demand, willingness to pay and feasibility, with a value-versus-feasibility matrix and a prioritised roadmap. It sets out today’s Starlink/Starshield government baseline and buyer pain points (contractual and governance gaps such as priority, restoration and outage reporting), then benchmarks proposed premiums against OneWeb, Amazon Leo, SES, Viasat/Inmarsat, Iridium, Telesat, IRIS², AST/FirstNet and others. Sections 1–2 are sourced fact; sections 3–5 are labelled analysis and recommendations, not SpaceX products.",
+      "stats": [
+        "13 pages",
+        "108 references",
+        "24 features",
+        "2 charts"
+      ],
+      "doc": "Starlink_Government_Premium_Features.docx",
+      "related_files": [],
+      "related_projects": [
+        "civil-gov-satcom-tenders-rfp-sites",
+        "gov-satcom-tenders-rfp-europe-asia",
+        "amazon-leo-pdf-spec-links",
+        "leo-satellite-comms-report"
+      ],
+      "short_summary": "24 candidate Starlink premium features for civil and federal government, scored for demand, willingness to pay and feasibility, with a prioritised roadmap. Sections 1–2 are sourced fact; sections 3–5 are analysis.",
+      "url": "projects/starlink-government-premium-features/index.html",
+      "downloads": [
+        {
+          "name": "Starlink_Government_Premium_Features.docx",
+          "href": "files/Starlink_Government_Premium_Features.docx",
+          "size": "203.9 KB",
+          "ext": "DOCX"
+        }
+      ],
+      "related_titles": [
+        {
+          "slug": "civil-gov-satcom-tenders-rfp-sites",
+          "title": "Civil and Federal Government Satcom Programmes, Tenders and RFP Portals to Track: Europe and Asia-Pacific (with notable programmes elsewhere)"
+        },
+        {
+          "slug": "gov-satcom-tenders-rfp-europe-asia",
+          "title": "Government Satcom Programmes, Tenders and RFP Portals to Track: Europe and Asia-Pacific"
+        },
+        {
+          "slug": "amazon-leo-pdf-spec-links",
+          "title": "Amazon Leo (formerly Project Kuiper): Public PDF Specification Links"
+        },
+        {
+          "slug": "leo-satellite-comms-report",
+          "title": "LEO Satellite Communications: Provider Comparison, Specifications & Pricing"
+        }
+      ],
+      "date_label": "Nov 18, 2026",
+      "links_found": 108,
+      "images": 2
     }
   ]
 }
